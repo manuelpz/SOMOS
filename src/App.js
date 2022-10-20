@@ -1,21 +1,25 @@
 import './App.css';
 import Footer from './components/footer';
-import Navbar from './components/navbar';
-import Carousel from './components/carousel';
+import Navegationbar from './components/navbar';
+import Home from './components/home';
+import MyCarousel from './components/carousel';
+import "./styles/footer.css"
+import "./styles/carousel.css"
 
 
 function App() {
   return (
    <div className="App">
       <header className="App-header">
-      <Navbar />
+        <Navegationbar />
       </header>
-      <section>
-        <Carousel />
+      <section className="Seccion">
+        <MyCarousel />
       </section>
-      <footer>
+      <section>
+        <Home />
+      </section>
         <Footer />
-      </footer>
     </div>
   );
 }

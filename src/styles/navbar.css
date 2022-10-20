@@ -1,5 +1,38 @@
-.logo{
-    width:5%;
-    margin-right: 3%;
+/* ELEMENTOS HTML */
+nav{
+    background: linear-gradient(to right, white, #990099);
+    font-family: "Dancing Script";
+    text-align: center;
+    font-size: 1.3rem;
+    height: 10vh;
 }
+
+a{
+    text-align: center;
+}
+
+b{
+    color: black;
+}
+
+/* b:hover{
+    A IMPLEMENTAR EN UN FUTURO
+    background-color: yellow;
+} */
+
+/* ID´S */
+#navbarScroll{
+    margin-left: 8%;
+}
+
+/* CLASES */
+.logo{
+    width:90%;
+}
+
+.navbar-brand{
+    padding:0px,0px;
+    width: 5%;
+}
+
 

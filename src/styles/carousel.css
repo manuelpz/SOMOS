@@ -1,0 +1,13 @@
+.carousel-inner{
+    width: auto;
+    height: 200px;
+}
+
+.carousel-inner > .carousel-item > img{
+    height: 30vh;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
