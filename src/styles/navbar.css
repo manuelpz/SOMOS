@@ -25,6 +25,11 @@ b{
     margin-left: 8%;
 }
 
+#navbarScrollingDropdown{
+    color:black;
+    font-weight: bold;
+}
+
 /* CLASES */
 .logo{
     width:90%;

@@ -1,10 +1,17 @@
-
 .footer{
+    display: grid;
     background-color: #990099;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: auto;
-    text-align: center;
+    height: 9vh;
+    align-items: center;
+    margin:auto;
+}
+
+.footerText{
+    color:white;
+    text-align: left;
+    margin-left: 5%;
 }
 
