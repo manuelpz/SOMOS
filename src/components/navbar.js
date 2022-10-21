@@ -5,6 +5,7 @@ import "@fontsource/dancing-script";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
 
 export default function Navegationbar(){
     return(
@@ -16,12 +17,12 @@ export default function Navegationbar(){
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link href="#action1"><b>Home</b></Nav.Link>
-            <Nav.Link href="#action2"><b>Link</b></Nav.Link>
-           
-            <Nav.Link href="#"><b>Link</b></Nav.Link>
+            navbarScroll>
+              
+            <Nav.Link as={Link} to="/"><b>Home</b></Nav.Link>
+            <Nav.Link as={Link} to="/productos"><b>Productos</b></Nav.Link>
+            <Nav.Link as={Link} to="/contacto"><b>Contacto</b></Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
