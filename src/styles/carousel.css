@@ -7,8 +7,13 @@
     height: 30vh;
 }
 
-img{
+.carousel-item{
+    position: absolute;
+}
+
+.imgCarrusel{
     object-fit: contain;
     width: 100%;
     height: auto;
+    position: relative;
 }

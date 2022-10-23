@@ -5,10 +5,10 @@ import "../styles/navbar.css";
 
 export default function MyCarousel(){
     return(
-      <Carousel className = "Carrusel">
+      <Carousel className = "carrusel">
       <Carousel.Item className= "Item">
         <img
-          className="d-block w-1"
+          className="d-block w-1 imgCarrusel"
           src={logo}
           alt="First slide"
         />

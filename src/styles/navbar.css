@@ -21,9 +21,7 @@ b{
 } */
 
 /* ID´S */
-#navbarScroll{
-    margin-left: 8%;
-}
+
 
 #navbarScrollingDropdown{
     color:black;
@@ -41,3 +39,24 @@ b{
 }
 
 
+
+
+
+@media only screen and (max-width: 991.20px) {
+    /* ID´S */
+    #navbarScroll{
+        position:relative;
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        background-color: rgb(255, 255, 255);
+        z-index: 3;
+        margin-left: -5%;
+        margin-right: -5%;
+       
+    }
+
+    .borde{
+        border-bottom: 1px solid black;
+    } 
+}
