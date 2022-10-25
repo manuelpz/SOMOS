@@ -12,7 +12,7 @@ export default function Navegationbar() {
   return (
     <Navbar collapseOnSelect bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/" >
           <img className="logo" src={logo} alt="Logo de la campaña" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

@@ -15,14 +15,14 @@ export default function MyCarousel(){
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-1"
+          className="d-block w-1 imgCarrusel"
           src={logo}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-1"
+          className="d-block w-1 imgCarrusel"
           src={logo}
           alt="Third slide"
         />

@@ -34,13 +34,8 @@ b{
 }
 
 .navbar-brand{
-    padding:0px,0px;
     width: 5%;
 }
-
-
-
-
 
 @media only screen and (max-width: 991.20px) {
     /* ID´S */
@@ -58,5 +53,9 @@ b{
 
     .borde{
         border-bottom: 1px solid black;
-    } 
+    }
+    
+    .navbar-brand{
+        width: 15%;
+    }
 }
