@@ -1,11 +1,10 @@
-/* ELEMENTOS HTML */
-nav{
+/* ------ ELEMENTOS HTML------ */
+ nav{
     background: linear-gradient(to right, white, #990099);
     font-family: "Dancing Script";
     text-align: center;
     font-size: 1.3rem;
-    height: 10vh;
-}
+} 
 
 a{
     text-align: center;
@@ -15,47 +14,45 @@ b{
     color: black;
 }
 
+
 /* b:hover{
     A IMPLEMENTAR EN UN FUTURO
     background-color: yellow;
 } */
 
-/* ID´S */
-
-
+/* ------ ID´S ------*/
 #navbarScrollingDropdown{
     color:black;
     font-weight: bold;
 }
 
-/* CLASES */
-.logo{
-    width:90%;
+/* ------ CLASES ------ */
+.container-fluid{
+    padding: 0px !important;
+}
+
+.navbar{
+    padding:0px !important;
 }
 
 .navbar-brand{
-    width: 5%;
+    width: 12%;
+    padding-bottom: 0px;
+}
+
+.logo{
+    width: 40%;
 }
 
 @media only screen and (max-width: 991.20px) {
     /* ID´S */
-    #navbarScroll{
-        position:relative;
-        width: 100%;
-        height: 100%;
-        border: 1px solid black;
-        background-color: rgb(255, 255, 255);
-        z-index: 3;
-        margin-left: -5%;
-        margin-right: -5%;
-       
+
+    /* CLASES */
+    .logo{
+        width:100%;
     }
 
-    .borde{
+    .nav-link{
         border-bottom: 1px solid black;
-    }
-    
-    .navbar-brand{
-        width: 15%;
     }
 }
