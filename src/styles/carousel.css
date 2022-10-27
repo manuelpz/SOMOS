@@ -11,9 +11,15 @@
     position: absolute;
 }
 
+.carousel-indicators{
+    display: none !important;
+}
+
 .imgCarrusel{
     object-fit: contain;
-    width: 100%;
-    height: auto;
+    width: 50%;
     position: relative;
+    margin: auto;
 }
+
+
