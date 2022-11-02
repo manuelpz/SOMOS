@@ -1,25 +1,15 @@
-.carousel-inner{
-    width: auto;
-    height: 200px;
-}
+.carousel, .carousel-inner > .carousel-item > img {
+    height: 20vh;
 
-.carousel-inner > .carousel-item > img{
-    height: 30vh;
-}
-
-.carousel-item{
-    position: absolute;
-}
-
-.carousel-indicators{
-    display: none !important;
-}
-
-.imgCarrusel{
+  }
+  
+  .imgCarrusel{
     object-fit: contain;
     width: 50%;
     position: relative;
     margin: auto;
 }
 
-
+.carousel-indicators{
+    display: none !important;
+}
