@@ -1,8 +1,8 @@
-import "../styles/tarjetas.css"
+import "../../styles/tarjetas.css"
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-import caramelos from "../assets/caramelo-palo.png";
+import caramelos from "../../assets/caramelo-palo.png";
 
 function TarjetaCaramelo() {
   return (
