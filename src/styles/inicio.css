@@ -1,0 +1,22 @@
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-top: 4%;
+    margin-right:4% ;
+}
+.titulo{
+    font-weight: bold;
+}
+
+.sub{
+    font-style: italic;
+}
+
+.block{
+    display: block !important;
+}
+
+.finalBlock{
+    display: initial;
+}
