@@ -22,9 +22,8 @@ function Caramelos() {
         <Col>
           <TarjetaNapolitana />
         </Col>
-        
       </Row>
-        <Row>
+      <Row>
         <Col>
           <TarjetaPiruletaRedonda />
         </Col>

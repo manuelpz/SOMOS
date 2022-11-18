@@ -1,8 +1,15 @@
-.card{
-    margin: 5%;
+.card {
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.col {
+  display: flex;
+  justify-content:center;
 }
 
-.col{
-    display:flex;
-    justify-content: center;  
+.card-img-top{
+    height: 80%;
 }
