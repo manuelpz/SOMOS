@@ -5,14 +5,14 @@ import Card from "react-bootstrap/Card";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
-import carameloBlando from "../../assets/carameloBlando.jpg";
+import pikotas from "../../assets/pikotas.jpg";
 
 function TarjetaCarameloBlando() {
   const [flip, setFlip] = useState(false);
   return (
     <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
-      <div onClick={() => setFlip(!flip)}>
-        <Card
+    
+        <Card onClick={() => setFlip(!flip)}
           style={{
             width: "18rem",
             height: "400px",
@@ -22,18 +22,18 @@ function TarjetaCarameloBlando() {
             padding: "20px",
           }}
         >
-          <Card.Img variant="top" src={carameloBlando} />
+          <Card.Img variant="top" src={pikotas} />
           <Card.Body>
-            <Card.Title>CARAMELO BLANDO</Card.Title>
+            <Card.Title>PIKOTAS</Card.Title>
             <Button variant="primary">Más información</Button>
           </Card.Body>
         </Card>
-      </div>
-      <div onClick={() => setFlip(!flip)}>
-        <Card
+    
+      
+        <Card onClick={() => setFlip(!flip)}
           style={{
             width: "18rem",
-            height: "400px",
+            height: "auto",
             margin: "20px",
             borderRadius: "4px",
             textAlign: "center",
@@ -43,11 +43,11 @@ function TarjetaCarameloBlando() {
           <Card.Body>
             <Card.Text>
               {" "}
-              Caramelo blando masticabel sabor fruta bolsa 1kg
+              Estas Deliciosas Pikotas nos sorprendieron y conquistaron en los años 90, Bolitas deliciosas de caramelo blando con intenso sabor a Cereza. ¿Quien no las adora?
             </Card.Text>
           </Card.Body>
         </Card>
-      </div>
+  
     </ReactCardFlip>
   );
 }

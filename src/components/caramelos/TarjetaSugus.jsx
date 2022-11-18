@@ -1,18 +1,19 @@
 import React from "react";
-import "../../styles/tarjetas.css"
+import "../../styles/tarjetas.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
-import napolitana from "../../assets/napolitana.jpg";
+import sugu from "../../assets/sugu.jpg";
 
-function TarjetaNapolitana() {
+function TarjetaSugus() {
   const [flip, setFlip] = useState(false);
   return (
     <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
-   
-        <Card  onClick={() => setFlip(!flip)} style={{
+      
+        <Card onClick={() => setFlip(!flip)}
+          style={{
             width: "18rem",
             height: "400px",
             margin: "20px",
@@ -21,15 +22,16 @@ function TarjetaNapolitana() {
             padding: "20px",
           }}
         >
-          <Card.Img variant="top" src={napolitana} />
+          <Card.Img variant="top" src={sugu} />
           <Card.Body>
-          <Card.Title>NAPOLITANA DE CHOCOLATE</Card.Title>
+            <Card.Title>SUGUS</Card.Title>
             <Button variant="primary">Más información</Button>
           </Card.Body>
         </Card>
-      
-    
-        <Card onClick={() => setFlip(!flip)} style={{
+     
+     
+        <Card onClick={() => setFlip(!flip)}
+          style={{
             width: "18rem",
             height: "auto",
             margin: "20px",
@@ -41,12 +43,7 @@ function TarjetaNapolitana() {
           <Card.Body>
             <Card.Text>
               {" "}
-              Bolsa de 1kg , alrededor 230 unidades de deliciosas mini
-              chocolatinas. Contiene dos tipos, una de chocolate negro ( cacao
-              min 60%) y otra de chocolate con leche (cacao min 29%) . Envueltos
-              de manera individual con la palabra gracias en varios idiomas.
-              Ideal para acompañar tu café. Sus medidas son 4 cm de largo X 2.5
-              cm de ancho.
+              Caramelo blando masticable sabor fruta bolsa 1kg
             </Card.Text>
           </Card.Body>
         </Card>
@@ -55,5 +52,4 @@ function TarjetaNapolitana() {
   );
 }
 
-export default TarjetaNapolitana;
-
+export default TarjetaSugus;

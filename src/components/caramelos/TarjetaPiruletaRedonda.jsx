@@ -11,8 +11,8 @@ function TarjetaPiruletaRedonda() {
   const [flip, setFlip] = useState(false);
   return (
     <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
-      <div onClick={() => setFlip(!flip)}>
-        <Card
+      
+        <Card onClick={() => setFlip(!flip)}
           style={{
             width: "18rem",
             height: "400px",
@@ -28,12 +28,12 @@ function TarjetaPiruletaRedonda() {
             <Button variant="primary">Más información</Button>
           </Card.Body>
         </Card>
-      </div>
-      <div onClick={() => setFlip(!flip)}>
-        <Card
+     
+     
+        <Card onClick={() => setFlip(!flip)}
           style={{
             width: "18rem",
-            height: "400px",
+            height: "auto",
             margin: "20px",
             borderRadius: "4px",
             textAlign: "center",
@@ -48,7 +48,7 @@ function TarjetaPiruletaRedonda() {
             </Card.Text>
           </Card.Body>
         </Card>
-      </div>
+     
     </ReactCardFlip>
   );
 }

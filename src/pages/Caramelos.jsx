@@ -8,6 +8,9 @@ import TarjetaNapolitana from "../components/caramelos/TarjetaNapolitana";
 import TarjetaPiruletaRedonda from "../components/caramelos/TarjetaPiruletaRedonda";
 import TarjetaCarameloBlando from "../components/caramelos/TarjetaCarameloBlando";
 import TarjetaGumy from "../components/caramelos/TarjetaGumy";
+import TarjetaSugus from "../components/caramelos/TarjetaSugus";
+import TarjetaSolano from "../components/caramelos/TarjetaSolano";
+import "../styles/caramelos.css";
 
 function Caramelos() {
   return (
@@ -22,16 +25,22 @@ function Caramelos() {
         <Col>
           <TarjetaNapolitana />
         </Col>
-      </Row>
-      <Row>
         <Col>
           <TarjetaPiruletaRedonda />
         </Col>
+      </Row>
+      <Row>  
         <Col>
           <TarjetaCarameloBlando />
         </Col>
         <Col>
           <TarjetaGumy />
+        </Col>
+        <Col>
+          <TarjetaSugus />
+        </Col>
+        <Col>
+          <TarjetaSolano />
         </Col>
       </Row>
     </Container>

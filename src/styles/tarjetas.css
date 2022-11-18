@@ -1,15 +1,23 @@
 .card {
-  margin: 5%;
-  display: flex;
+   
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  width: auto !important;
 }
-.col {
+
+.row {
   display: flex;
-  justify-content:center;
+  flex-direction: row;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+}
+
+.container {
+    max-width: 85% !important;
+    
 }
 
 .card-img-top{
-    height: 80%;
+    height: 75%;
 }
+

@@ -11,11 +11,9 @@ function TarjetaCaramelo() {
   const [flip, setFlip] = useState(false);
   return (
     <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
-      <div onClick={() => setFlip(!flip)}>
-        <Card
+        <Card onClick={() => setFlip(!flip)}
           style={{
             width: "18rem",
-        
             height: "400px",
             margin: "20px",
             borderRadius: "4px",
@@ -25,16 +23,14 @@ function TarjetaCaramelo() {
         >
           <Card.Img variant="top" src={caramelos} />
           <Card.Body>
-            <Card.Title>PIRULETA REDONDA</Card.Title>
+            <Card.Title>CARAMELO CON PALO</Card.Title>
             <Button variant="primary">Más información</Button>
           </Card.Body>
         </Card>
-      </div>
-      <div onClick={() => setFlip(!flip)}>
-        <Card
+        <Card onClick={() => setFlip(!flip)}
           style={{
             width: "18rem",
-            height: "400px",
+            height: "auto",
             margin: "20px",
             borderRadius: "4px",
             textAlign: "center",
@@ -45,11 +41,10 @@ function TarjetaCaramelo() {
             <Card.Text>
               {" "}
               Caramelo con palo de combinación de sabores que se mezclan en el
-              mismo // caramelo 200 und aproximadamente por bolsa. Sin gluten.
+              mismo caramelo 200 und aproximadamente por bolsa. Sin gluten.
             </Card.Text>
           </Card.Body>
         </Card>
-      </div>
     </ReactCardFlip>
   );
 }
