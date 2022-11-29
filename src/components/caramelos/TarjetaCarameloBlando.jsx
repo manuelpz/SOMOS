@@ -25,7 +25,7 @@ function TarjetaCarameloBlando() {
           <Card.Img variant="top" src={pikotas} />
           <Card.Body>
             <Card.Title>PIKOTAS</Card.Title>
-            <Button variant="primary">Más información</Button>
+            <b><i>¡Tócame para saber más!</i> </b>
           </Card.Body>
         </Card>
     

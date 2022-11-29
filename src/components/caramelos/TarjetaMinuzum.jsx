@@ -25,7 +25,7 @@ function TarjetaMinizum() {
           <Card.Img variant="top" src={minizum} />
           <Card.Body>
             <Card.Title>MINIZUM</Card.Title>
-            <Button variant="primary">Más información</Button>
+            <b><i>¡Tócame para saber más!</i> </b>
           </Card.Body>
         </Card>
      

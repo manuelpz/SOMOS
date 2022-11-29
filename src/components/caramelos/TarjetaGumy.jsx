@@ -24,7 +24,7 @@ function TarjetaGumy() {
           <Card.Img variant="top" src={gumy} />
           <Card.Body>
             <Card.Title>GUMMY</Card.Title>
-            <Button variant="primary">Más información</Button>
+            <b><i>¡Tócame para saber más!</i> </b>
           </Card.Body>
         </Card>
   

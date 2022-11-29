@@ -24,7 +24,7 @@ function TarjetaNapolitana() {
           <Card.Img variant="top" src={napolitana} />
           <Card.Body>
           <Card.Title>NAPOLITANA DE CHOCOLATE</Card.Title>
-            <Button variant="primary">Más información</Button>
+          <b><i>¡Tócame para saber más!</i> </b>
           </Card.Body>
         </Card>
       

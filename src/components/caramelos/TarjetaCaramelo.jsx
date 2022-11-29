@@ -24,7 +24,7 @@ function TarjetaCaramelo() {
           <Card.Img variant="top" src={caramelos} />
           <Card.Body>
             <Card.Title>CARAMELO CON PALO</Card.Title>
-            <Button variant="primary">Más información</Button>
+            <b><i>¡Tócame para saber más!</i> </b>
           </Card.Body>
         </Card>
         <Card onClick={() => setFlip(!flip)}

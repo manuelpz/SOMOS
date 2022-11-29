@@ -25,7 +25,7 @@ function TarjetaPiruletaRedonda() {
           <Card.Img variant="top" src={piruletaRedonda} />
           <Card.Body>
             <Card.Title>PIRULETA REDONDA</Card.Title>
-            <Button variant="primary">Más información</Button>
+            <b><i>¡Tócame para saber más!</i> </b>
           </Card.Body>
         </Card>
      

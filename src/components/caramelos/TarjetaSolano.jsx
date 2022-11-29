@@ -25,7 +25,7 @@ function TarjetaSolano() {
             <Card.Img variant="top" src={solano} />
             <Card.Body>
               <Card.Title>CARAMELOS SOLANO</Card.Title>
-              <Button variant="primary">Más información</Button>
+              <b><i>¡Tócame para saber más!</i> </b>
             </Card.Body>
           </Card>
        

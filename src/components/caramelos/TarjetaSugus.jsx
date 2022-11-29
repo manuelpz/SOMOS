@@ -25,7 +25,7 @@ function TarjetaSugus() {
           <Card.Img variant="top" src={sugu} />
           <Card.Body>
             <Card.Title>SUGUS</Card.Title>
-            <Button variant="primary">Más información</Button>
+            <b><i>¡Tócame para saber más!</i> </b>
           </Card.Body>
         </Card>
      
