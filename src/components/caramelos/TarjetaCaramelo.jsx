@@ -2,7 +2,6 @@ import * as React from "react";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import "../../styles/tarjetas.css";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 import caramelos from "../../assets/caramelo-palo.png";

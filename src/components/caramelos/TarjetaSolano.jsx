@@ -1,6 +1,5 @@
 import React from "react";
 import "../../styles/tarjetas.css";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
