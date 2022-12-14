@@ -5,6 +5,11 @@
     margin-top: 2%;
     margin-right:4% ;
 }
+
+.col-sm{
+    margin-bottom: 2%;
+}
+
 .titulo{
     font-weight: bold;
     text-align: center;
@@ -24,7 +29,7 @@
 }
 
 .col3{
-    display: initial;
+    display: block;
 }
 
 .todosCancer{
