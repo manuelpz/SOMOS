@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Navegationbar from "./components/Navbar";
 import Inicio from "./pages/Inicio";
 import Error404 from "./pages/Error404";
-import Contacto from "./pages/Contacto";
+import Contacto from "./pages/Quienes_somos";
 import Caramelos from "./pages/Caramelos";
 import "./styles/footer.css";
 import "./styles/carousel.css";

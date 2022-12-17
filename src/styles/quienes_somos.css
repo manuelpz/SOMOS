@@ -1,0 +1,26 @@
+h1,p{
+    margin:10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-style: oblique;
+    text-shadow: 3px 3px violet;
+    letter-spacing: 5px;
+}
+
+p{
+  text-align: left;  
+}
+
+.logo{
+  display: grid;
+  
+}
+
+img{
+  justify-self: center;
+  width: 30%;
+}
