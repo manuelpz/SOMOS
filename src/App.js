@@ -7,6 +7,7 @@ import Inicio from "./pages/Inicio";
 import Error404 from "./pages/Error404";
 import Contacto from "./pages/Quienes_somos";
 import Caramelos from "./pages/Caramelos";
+import MaterialOficina from "./pages/MaterialOficina";
 import "./styles/footer.css";
 import "./styles/carousel.css";
 
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/" element={<Inicio />} />
           <Route exact path="/contacto" element={<Contacto />} />
           <Route exact path="/caramelos" element={<Caramelos />} />
+          <Route exact path="/oficina" element={<MaterialOficina />} />
           <Route  path="*" element={<Error404 />} />
         </Routes>
       </Router>

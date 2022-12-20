@@ -5,7 +5,7 @@ import logo from "../assets/LOGO-SOMOS-A3.png";
 function Contacto() {
   return (
     <>
-      <h1>SOMOS A3</h1>
+      <h1 className="tituloQuienesSomos">SOMOS A3</h1>
       <p>
          <i><b>Somos</b></i> una empresa que realizamos
         actividades comerciales realizando campañas de ayuda para asociaciones

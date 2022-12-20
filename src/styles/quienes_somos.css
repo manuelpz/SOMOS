@@ -1,8 +1,8 @@
-h1,p{
+.tituloQuienesSomos,p{
     margin:10px;
 }
 
-h1{
+.tituloQuienesSomos{
     text-align: center;
     margin-top: 10px !important;
     margin-bottom: 10px !important;
