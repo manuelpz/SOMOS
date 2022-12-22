@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+    "titulo": "Material de mesa",
+    "descripcion": "Disponemos de más de 3.000 productos de material de oficina para tu empresa. Papelería, material escolar, papelería corporativa, consumibles informáticos y máquinas.Ofrecemos productos de papelería de marcas de gran prestigio.Puedes consultarnos los productos que tenemos disponibles.",
+    "img":"/materialOficina/materialOficina1.jpg"
+    },
+    {
+        "id": 2,
+    "titulo": "Material de suelo",
+    "descripcion": "Probando",
+    "img":"/materialOficina/materialOficina1.jpg"
+    }
+]
