@@ -3,7 +3,6 @@ import "../../styles/tarjetas.css";
 import Card from "react-bootstrap/Card";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import gumy from "../../assets/gumy.jpg";
 
 function TarjetaGumy() {
   const [flip, setFlip] = useState(false);
@@ -20,7 +19,7 @@ function TarjetaGumy() {
             padding: "20px",
           }}
         >
-          <Card.Img variant="top" src={gumy} />
+          <Card.Img variant="top" src={"/caramelos/gumy.jpg"} />
           <Card.Body>
             <Card.Title>GUMMY</Card.Title>
             <b><i>¡Tócame para saber más!</i> </b>

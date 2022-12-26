@@ -4,8 +4,6 @@ import Card from "react-bootstrap/Card";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
-import sugu from "../../assets/sugu.jpg";
-
 function TarjetaSugus() {
   const [flip, setFlip] = useState(false);
   return (
@@ -21,7 +19,7 @@ function TarjetaSugus() {
             padding: "20px",
           }}
         >
-          <Card.Img variant="top" src={sugu} />
+          <Card.Img variant="top" src={"/caramelos/sugu.jpg"} />
           <Card.Body>
             <Card.Title>SUGUS</Card.Title>
             <b><i>¡Tócame para saber más!</i> </b>

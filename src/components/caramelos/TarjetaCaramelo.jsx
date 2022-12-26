@@ -4,8 +4,6 @@ import ReactCardFlip from "react-card-flip";
 import "../../styles/tarjetas.css";
 import Card from "react-bootstrap/Card";
 
-import caramelos from "../../assets/caramelo-palo.png";
-
 function TarjetaCaramelo() {
   const [flip, setFlip] = useState(false);
   return (
@@ -20,7 +18,7 @@ function TarjetaCaramelo() {
             padding: "20px",
           }}
         >
-          <Card.Img variant="top" src={caramelos} />
+          <Card.Img variant="top" src={"/caramelos/caramelo-palo.png"} />
           <Card.Body>
             <Card.Title>CARAMELO CON PALO</Card.Title>
             <b><i>¡Tócame para saber más!</i> </b>

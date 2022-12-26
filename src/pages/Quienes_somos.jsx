@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/quienes_somos.css"
-import logo from "../assets/LOGO-SOMOS-A3.png";
 
 function Nosotros() {
   return (
@@ -17,7 +16,7 @@ function Nosotros() {
         un diagnóstico de cáncer reciban el tratamiento y terapias que
         necesitan. </p>
         <div className="logo">
-      <img src={logo} alt="Logo de la campaña" />
+      <img src={"/LOGO-SOMOS-A3.png"} alt="Logo de la campaña" />
       </div>
         <p>La campaña se llama <b>"LO CONSEGUIMOS CON TU AYUDA"</b>, dirigida
         a la Atención integral al menor y a sus familias: sensibilización y

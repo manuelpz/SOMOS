@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/LOGO-SOMOS-A3.png";
 import "../styles/navbar.css";
 import "@fontsource/dancing-script";
 import Container from "react-bootstrap/Container";
@@ -13,7 +12,7 @@ export default function Navegationbar() {
     <Navbar collapseOnSelect bg="light" expand="lg">
       <Container fluid>
         <Navbar.Brand as={Link} to="/" >
-          <img className="logo" src={logo} alt="Logo de la campaña" />
+          <img className="logo" src={"/LOGO-SOMOS-A3.png"} alt="Logo de la campaña" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

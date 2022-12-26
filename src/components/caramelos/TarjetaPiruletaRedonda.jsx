@@ -4,8 +4,6 @@ import Card from "react-bootstrap/Card";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
-import piruletaRedonda from "../../assets/piruletaRedonda.jpg";
-
 function TarjetaPiruletaRedonda() {
   const [flip, setFlip] = useState(false);
   return (
@@ -21,7 +19,7 @@ function TarjetaPiruletaRedonda() {
             padding: "20px",
           }}
         >
-          <Card.Img variant="top" src={piruletaRedonda} />
+          <Card.Img variant="top" src={"/caramelos/piruletaRedonda.jpg"} />
           <Card.Body>
             <Card.Title>PIRULETA REDONDA</Card.Title>
             <b><i>¡Tócame para saber más!</i> </b>

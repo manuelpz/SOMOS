@@ -4,8 +4,6 @@ import Card from "react-bootstrap/Card";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
-import solano from "../../assets/solano.jpg";
-
 function TarjetaSolano() {
     const [flip, setFlip] = useState(false);
     return (
@@ -21,7 +19,7 @@ function TarjetaSolano() {
               padding: "20px",
             }}
           >
-            <Card.Img variant="top" src={solano} />
+            <Card.Img variant="top" src={"/caramelos/solano.jpg"} />
             <Card.Body>
               <Card.Title>CARAMELOS SOLANO</Card.Title>
               <b><i>¡Tócame para saber más!</i> </b>

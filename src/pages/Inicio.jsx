@@ -1,9 +1,6 @@
 import { Avatar } from "@mui/material";
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import lazo_amarillo from "../assets/lazo_amarillo.png";
-import todosCancer from "../assets/cancer-2.png";
-import niñaConCancer from "../assets/cancer-3.jpg";
 import MyCarousel from "../components/Carousel";
 import "../styles/inicio.css";
 
@@ -17,7 +14,7 @@ export default function Inicio() {
           <Col sm className = "col1">
             <Avatar
               alt="Niño enfermo"
-              src={lazo_amarillo}
+              src={"/inicio/lazo_amarillo.png"}
               sx={{ width: 150, height: 150 }}
               className="avatar"
             />
@@ -25,7 +22,7 @@ export default function Inicio() {
           <Col sm className="col2">
             <p className="titulo">PROYECTOS QUE BUSCAN AYUDA</p>
             <p className="sub">Con tu ayuda llegaremos a más peques</p>
-            <img src={niñaConCancer} alt="Niña pequeña con cáncer infantil" className="todosCancer"/>
+            <img src={"/inicio/cancer-3.jpg"} alt="Niña pequeña con cáncer infantil" className="todosCancer"/>
           </Col>
           <Col sm className="col3">
             <p>
@@ -43,7 +40,7 @@ export default function Inicio() {
               A través de la compra de nuestros productos, estará colaborando
               con Asociaciones de carácter humanitario
             </p>
-            <img src={todosCancer} alt="Frase de apoyo" className="todosCancer"/>
+            <img src={"/inicio/cancer-2.png"} alt="Frase de apoyo" className="todosCancer"/>
           </Col>
         </Row>
         </Container>

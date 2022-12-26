@@ -4,8 +4,6 @@ import ReactCardFlip from "react-card-flip";
 import "../../styles/tarjetas.css";
 import Card from "react-bootstrap/Card";
 
-import minizum from "../../assets/minizum.jpg";
-
 function TarjetaMinizum() {
   const [flip, setFlip] = useState(false);
   return (
@@ -21,7 +19,7 @@ function TarjetaMinizum() {
             padding: "20px",
           }}
         >
-          <Card.Img variant="top" src={minizum} />
+          <Card.Img variant="top" src={"/caramelos/minizum.jpg"} />
           <Card.Body>
             <Card.Title>MINIZUM</Card.Title>
             <b><i>¡Tócame para saber más!</i> </b>

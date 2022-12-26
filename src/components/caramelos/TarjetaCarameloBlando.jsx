@@ -4,8 +4,6 @@ import Card from "react-bootstrap/Card";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
-import pikotas from "../../assets/pikotas.jpg";
-
 function TarjetaCarameloBlando() {
   const [flip, setFlip] = useState(false);
   return (
@@ -21,7 +19,7 @@ function TarjetaCarameloBlando() {
             padding: "20px",
           }}
         >
-          <Card.Img variant="top" src={pikotas} />
+          <Card.Img variant="top" src={"/caramelos/pikotas.jpg"} />
           <Card.Body>
             <Card.Title>PIKOTAS</Card.Title>
             <b><i>¡Tócame para saber más!</i> </b>
