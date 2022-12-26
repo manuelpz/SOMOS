@@ -19,7 +19,7 @@ export default function MaterialOficina() {
     }
 
 
-    const [value, setValue] = useState({ input: "" });
+    const [value, setValue] = useState({ input: "", mail: "" });
     const seteaValor = (event) => {
         setValue({
             ...value,

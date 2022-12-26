@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/quienes_somos.css"
 import logo from "../assets/LOGO-SOMOS-A3.png";
 
-function Contacto() {
+function Nosotros() {
   return (
     <>
       <h1 className="tituloQuienesSomos">SOMOS A3</h1>
@@ -34,4 +34,4 @@ function Contacto() {
   );
 }
 
-export default Contacto;
+export default Nosotros;
