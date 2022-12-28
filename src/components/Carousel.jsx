@@ -2,10 +2,10 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import "../styles/navbar.css";
 
-export default function MyCarousel(){
-    return(
-      <Carousel className = "carrusel">
-      <Carousel.Item className= "Item">
+export default function MyCarousel() {
+  return (
+    <Carousel className="carrusel">
+      <Carousel.Item className="Item">
         <img
           className="d-block w-1 imgCarrusel"
           src={"/carousel/solidaridad-lila.png"}
@@ -27,5 +27,5 @@ export default function MyCarousel(){
         />
       </Carousel.Item>
     </Carousel>
-    )
-}
+  )
+} 

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap");
+
+.tituloCampaña {
+  font-family: "Short Stack", cursive;
+  text-transform: uppercase;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.subtituloCampaña {
+  font-family: "Short Stack", cursive;
+  margin-left: 15px;
+}
+
+.parrafoCampaña {
+  text-align: justify;
+}
+
+.listaCampaña {
+  list-style-type: circle;
+}
+
+.textoAgradecimiento{
+    text-align: center;
+}

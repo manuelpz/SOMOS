@@ -7,6 +7,7 @@ import { useState } from "react";
 
 export default function Carta({ card }) {
   const [flip, setFlip] = useState(false);
+  const NO_ITEMS = "No hay nada que mostrar aún. disculpe las molestias"
   return (
     <>
       <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
@@ -58,12 +59,10 @@ export default function Carta({ card }) {
         >
           <Card.Body>
             <Card.Text>
-              Material del que disponemos:
-              <b>Tijeras</b>
-              <b>Subrayadores</b>
-              <b>Bolígrafos</b>
-              <b>Tijeras</b>
-              <b>Tijeras</b>
+              {Array.isArray(card.back)
+                ? card.back.map((card, index) => {
+                  return <li key={index}>{card.item}</li>
+                }) : NO_ITEMS }
             </Card.Text>
           </Card.Body>
         </Card>
