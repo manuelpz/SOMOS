@@ -1,22 +1,25 @@
 [
     {
         "id": 1,
-        "titulo": "Material de sobremesa",
-        "descripcion": "Disponemos de más de 3.000 productos de material de oficina para tu empresa. Papelería, material escolar, papelería corporativa, consumibles informáticos y máquinas.Ofrecemos productos de papelería de marcas de gran prestigio.Puedes consultarnos los productos que tenemos disponibles.",
-        "elementos":"tijeras, bolígrafos, boligrafos, sacapuntas, lápices, lapices" ,
+        "titulo": "Material general de oficina",
+        "elementos": "quitagrapas, grapas, papeleras, bandejas, lupas", 
         "back": [
             {
-                "item": "Tijeras"
+                "item": "Quitagrapas"
             },
             {
-                "item": "Bolígrafos"
+                "item": "Grapas"
             },
             {
-                "item": "Sacapuntas"
+                "item": "Papeleras"
             },
             {
-                "item": "Lápices"
-            }],
+                "item": "Bandejas"
+            },
+            {
+                "item": "Lupas"
+            }
+        ],
         "img": [
             {
                 "src": "/materialOficina/materialOficina1.jpg"
@@ -34,63 +37,76 @@
     },
     {
         "id": 2,
-        "titulo": "Material de suelo",
-        "descripcion": "Probando",
-        "elementos": "tijeras, bolígrafos, boligrafos, sacapuntas, lápices, corcho",
+        "titulo": "Escritura",
+        "elementos": "Sacapuntas, Bolígrafos, boligrafos, bolis,Rotuladores, Corrector, tipex, goma, Portaminas, minas, lapices, lápices",
         "back": [
             {
-                "item": "Tijeras"
+                "item": "Sacapuntas"
             },
             {
                 "item": "Bolígrafos"
             },
             {
-                "item": "Sacapuntas"
+                "item": "Rotuladores"
             },
             {
-                "item": "Corcho"
+                "item": "Corrector"
+            },
+            {
+                "item": "Goma de borrar"
+            },
+            {
+                "item": "Portaminas"
+            },
+            {
+                "item": "Lápices"
             }
         ],
         "img": [
             {
-                "src": "/materialOficina/materialOficina1.jpg"
+                "src": "/materialOficina/boligrafos.jpg"
             },
             {
-                "src": "/materialOficina/materialOficina2.jpg"
+                "src": "/materialOficina/portaminas.jpg"
             },
             {
-                "src": "/materialOficina/materialOficina3.jpg"
+                "src": "/materialOficina/rotuladores.jpg"
             }
         ]
     },
     {
         "id": 3,
-        "titulo": "Material de suelo",
-        "descripcion": "Probando",
-        "elementos": "tijeras, bolígrafos, boligrafos, sacapuntas, lápices, corcho",
+        "titulo": "Papel",
+        "elementos": "Cuadernos, Archivadores, Folios, Blocs, Libretas, adhesivos, posit, post it",
         "back": [
             {
-                "item": "Tijeras"
+                "item": "Cuadernos"
             },
             {
-                "item": "Bolígrafos"
+                "item": "Archivadores"
             },
             {
-                "item": "Sacapuntas"
+                "item": "Folios Din A4"
             },
             {
-                "item": "Corcho"
+                "item": "Blocs"
+            },
+            {
+                "item": "Libretas"
+            },
+            {
+                "item": "Post it (adhesivos)"
             }
         ],
         "img": [
             {
-                "src": "/materialOficina/materialOficina1.jpg"
+                "src": "/materialOficina/cuadernos.jpg"
             },
             {
-                "src": "/materialOficina/materialOficina2.jpg"
+                "src": "/materialOficina/blocs.jpg"
             },
             {
-                "src": "/materialOficina/materialOficina3.jpg"
+                "src": "/materialOficina/folios.jpg"
             }
         ]
     }

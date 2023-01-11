@@ -10,7 +10,7 @@ export default function Carta({ card }) {
   const NO_ITEMS = "No hay nada que mostrar aún. disculpe las molestias"
   return (
     <div className="card-flip">
-      <ReactCardFlip  isFlipped={flip} flipDirection="horizontal">
+      <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
         <Card
           onClick={() => setFlip(!flip)}
           style={{
@@ -20,7 +20,7 @@ export default function Carta({ card }) {
             textAlign: "center",
             padding: "20px",
           }}
-          >
+        >
           <Card.Title>{card.titulo}</Card.Title>
           <Card.Body className="card-body-oficina">
             <Container>
@@ -29,17 +29,15 @@ export default function Carta({ card }) {
                   {Array.isArray(card.img)
                     ? card.img.map((card, index) => {
                       return <img key={index}
-                      className="img1"
-                      src={card.src}
-                      alt="Imagen de material de oficina" />
+                        className="img1"
+                        src={card.src}
+                        alt="Imagen de material de oficina" />
                     }) : null}
                 </Col>
               </Row>
             </Container>
-                      <Card.Text>
-                        {card.descripcion}
-                      </Card.Text>
             <b>
+              <br/>
               <i>¡Tócame para saber más!</i>{" "}
             </b>
           </Card.Body>
@@ -61,7 +59,7 @@ export default function Carta({ card }) {
               {Array.isArray(card.back)
                 ? card.back.map((card, index) => {
                   return <li key={index}>{card.item}</li>
-                }) : NO_ITEMS }
+                }) : NO_ITEMS}
             </Card.Text>
           </Card.Body>
         </Card>

@@ -1,7 +1,7 @@
 /* ------ ELEMENTOS HTML------ */
  nav{
     background: linear-gradient(to right, white, #990099);
-    font-family: "Dancing Script";
+    font-family: "Dancing Script", sans-serif;
     text-align: center;
     font-size: 1.3rem;
 } 
