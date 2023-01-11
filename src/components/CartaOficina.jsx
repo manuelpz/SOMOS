@@ -1,45 +1,44 @@
 import { Container } from "@mui/system";
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import ReactCardFlip from "react-card-flip";
 import Card from "react-bootstrap/Card";
-import { useState } from "react";
+import React, { useState } from "react";
+import "../styles/tarjetas.css"
 
 export default function Carta({ card }) {
   const [flip, setFlip] = useState(false);
   const NO_ITEMS = "No hay nada que mostrar aún. disculpe las molestias"
   return (
-    <>
-      <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
+    <div className="card-flip">
+      <ReactCardFlip  isFlipped={flip} flipDirection="horizontal">
         <Card
           onClick={() => setFlip(!flip)}
           style={{
             width: "18rem",
-            height: "auto",
-            margin: "20px",
+            height: "18rem",
             borderRadius: "4px",
             textAlign: "center",
             padding: "20px",
           }}
-        >
+          >
           <Card.Title>{card.titulo}</Card.Title>
-          <Card.Body>
-            <Card.Text>
-              {card.descripcion}
-            </Card.Text>
+          <Card.Body className="card-body-oficina">
             <Container>
               <Row>
                 <Col>
                   {Array.isArray(card.img)
                     ? card.img.map((card, index) => {
                       return <img key={index}
-                        className="img1"
-                        src={card.src}
-                        alt="Imagen de material de oficina" />
+                      className="img1"
+                      src={card.src}
+                      alt="Imagen de material de oficina" />
                     }) : null}
                 </Col>
               </Row>
             </Container>
+                      <Card.Text>
+                        {card.descripcion}
+                      </Card.Text>
             <b>
               <i>¡Tócame para saber más!</i>{" "}
             </b>
@@ -50,14 +49,14 @@ export default function Carta({ card }) {
           onClick={() => setFlip(!flip)}
           style={{
             width: "18rem",
-            height: "auto",
-            margin: "20px",
+            height: "18rem",
             borderRadius: "4px",
             textAlign: "center",
             padding: "20px",
           }}
         >
-          <Card.Body>
+          <Card.Title>Disponemos de...</Card.Title>
+          <Card.Body className="card-body-oficina">
             <Card.Text>
               {Array.isArray(card.back)
                 ? card.back.map((card, index) => {
@@ -67,6 +66,6 @@ export default function Carta({ card }) {
           </Card.Body>
         </Card>
       </ReactCardFlip>
-    </>
+    </div>
   )
 }

@@ -1,8 +1,9 @@
 import React from "react";
-import "../styles/materialOficina.css";
 import { useState } from "react";
 import cards from "../json/materialOficina.json"
 import Carta from "../components/CartaOficina";
+import "../styles/tarjetas.css"
+import { Container } from "react-bootstrap";
 
 export default function MaterialOficina() {
     let contador = 0
@@ -12,7 +13,8 @@ export default function MaterialOficina() {
                 if (card.hasOwnProperty("elementos") && value.input !== "" && (card.elementos.toLowerCase().includes(value.input) || card.elementos.includes(value.input))){
                     return <Carta key={card.id} card={card} />}
                 else if (value.input === "") {
-                    return <Carta key={card.id} card={card} />
+                    return <Carta key={card.id} card={card} />  
+                    
                 }
                 else contador++
                 if(contador === cards.length)
@@ -41,8 +43,9 @@ export default function MaterialOficina() {
                 type={"text"}
                 placeholder="Tijeras, lápices, sacapuntas..."
             ></input><br />
-            
+            <Container>
             <Tarjeta cards={cards}></Tarjeta>
+            </Container>
         </>
     );
 }

@@ -12,7 +12,6 @@ function TarjetaCaramelo() {
           style={{
             width: "18rem",
             height: "400px",
-            margin: "20px",
             borderRadius: "4px",
             textAlign: "center",
             padding: "20px",
@@ -28,7 +27,6 @@ function TarjetaCaramelo() {
           style={{
             width: "18rem",
             height: "auto",
-            margin: "20px",
             borderRadius: "4px",
             textAlign: "center",
             padding: "20px",

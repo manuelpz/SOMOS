@@ -10,7 +10,6 @@ import TarjetaCarameloBlando from "../components/caramelos/TarjetaCarameloBlando
 import TarjetaGumy from "../components/caramelos/TarjetaGumy";
 import TarjetaSugus from "../components/caramelos/TarjetaSugus";
 import TarjetaSolano from "../components/caramelos/TarjetaSolano";
-import "../styles/caramelos.css";
 
 function Caramelos() {
   return (

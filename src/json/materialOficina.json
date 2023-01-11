@@ -62,5 +62,36 @@
                 "src": "/materialOficina/materialOficina3.jpg"
             }
         ]
+    },
+    {
+        "id": 3,
+        "titulo": "Material de suelo",
+        "descripcion": "Probando",
+        "elementos": "tijeras, bolígrafos, boligrafos, sacapuntas, lápices, corcho",
+        "back": [
+            {
+                "item": "Tijeras"
+            },
+            {
+                "item": "Bolígrafos"
+            },
+            {
+                "item": "Sacapuntas"
+            },
+            {
+                "item": "Corcho"
+            }
+        ],
+        "img": [
+            {
+                "src": "/materialOficina/materialOficina1.jpg"
+            },
+            {
+                "src": "/materialOficina/materialOficina2.jpg"
+            },
+            {
+                "src": "/materialOficina/materialOficina3.jpg"
+            }
+        ]
     }
 ]

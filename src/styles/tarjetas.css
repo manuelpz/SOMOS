@@ -1,8 +1,13 @@
 .card {
-   
   align-items: center;
   justify-content: center;
-  width: auto !important;
+  margin-top: 20px;
+  word-wrap: break-word;
+  display: flex;
+}
+
+.card-body-oficina{
+  overflow: auto;
 }
 
 .row {
@@ -21,3 +26,12 @@
     height: 75%;
 }
 
+.img1, .img2, .img3, .img4{
+  width: 40%;
+  height: auto;
+}
+
+.card-flip{
+  display: inline-block;
+  padding-right: 40px;
+}
