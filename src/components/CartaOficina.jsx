@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import React, { useState } from "react";
 import "../styles/tarjetas.css"
 
-export default function Carta({ card }) {
+export default function CartaOficina({ card }) {
   const [flip, setFlip] = useState(false);
   const NO_ITEMS = "No hay nada que mostrar aún. disculpe las molestias"
   return (

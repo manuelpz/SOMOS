@@ -6,13 +6,13 @@ import Navegationbar from "./components/Navbar";
 import Inicio from "./pages/Inicio";
 import Error404 from "./pages/Error404";
 import Nosotros from "./pages/Quienes_somos";
-
 import Contacto from "./pages/Contacto";
 import Caramelos from "./pages/Caramelos";
 import MaterialOficina from "./pages/MaterialOficina";
 import "./styles/footer.css";
 import "./styles/carousel.css";
 import Plan from "./pages/Campaña";
+import Celulosa from "./pages/Celulosa";
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
           <Route exact path="/contacto" element={<Contacto />} />
           <Route exact path="/caramelos" element={<Caramelos />} />
           <Route exact path="/oficina" element={<MaterialOficina />} />
+          <Route exact path="/celulosa" element={<Celulosa />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </Router>

@@ -1,9 +1,9 @@
 .card {
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-  word-wrap: break-word;
-  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex !important;
 }
 
 .card-body-oficina{
@@ -17,9 +17,8 @@
   flex-wrap: wrap;
 }
 
-.container {
-    max-width: 85% !important;
-    
+.container{
+    text-align: center;
 }
 
 .card-img-top{

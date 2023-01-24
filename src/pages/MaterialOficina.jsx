@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import cards from "../json/materialOficina.json"
-import Carta from "../components/CartaOficina";
+import CartaOficina from "../components/CartaOficina";
 import "../styles/tarjetas.css"
 import "../styles/oficina.css"
 import { Container } from "react-bootstrap";
@@ -11,9 +11,9 @@ export default function MaterialOficina() {
         return (
            cards.map((card) => {
                 if (card.hasOwnProperty("elementos") && value.input !== "" && (card.elementos.toLowerCase().includes(value.input) || card.elementos.includes(value.input))){
-                    return <Carta key={card.id} card={card} />}
+                    return <CartaOficina key={card.id} card={card} />}
                 else if (value.input === "") {
-                    return <Carta key={card.id} card={card} />  
+                    return <CartaOficina key={card.id} card={card} />  
                     
                 }
                 else contador++
