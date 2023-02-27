@@ -1,0 +1,31 @@
+.contacto {
+  text-align: center;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.banner {
+  width: 100vw;
+  position: relative;
+  padding-top: 20%; /* establece la altura como la mitad del ancho */
+  background-image: url("/contacto/cancer.jpg");
+  background-size: 100%;
+  border: 5px dashed yellow;
+}
+
+
+.banner img {
+  width: 100%;
+  height: 100%; /* ocupa todo el ancho del contenedor */
+  position: absolute; /* establece la posición para que la imagen se superponga en el espacio en blanco creado por padding-top */
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+
+Form {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
