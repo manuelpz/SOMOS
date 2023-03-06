@@ -22,7 +22,8 @@
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "sweetalert2": "^11.4.8",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.75.0"
   },
   "scripts": {
     "start": "react-scripts start",
