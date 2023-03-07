@@ -15,12 +15,24 @@ p{
   text-align: left;  
 }
 
-.logo{
+.logo-cover2{
   display: grid;
-  
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  width: 100%;
+}
+
+.logo-cover{
+  display: grid;
+  width: 100%;
 }
 
 .logoCampaña{
   justify-self: center;
-  width: 30%;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.content{
+  padding-bottom: 10%;
 }

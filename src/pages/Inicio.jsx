@@ -3,10 +3,11 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import MyCarousel from "../components/Carousel";
 import "../styles/inicio.css";
+import "../App.css";
 
 export default function Inicio() {
   return (
-    <div>
+    <div className="content">
       <MyCarousel />
       <div className="cabecera">
         <Container fluid="md">

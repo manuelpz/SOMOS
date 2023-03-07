@@ -3,7 +3,7 @@ import "../styles/quienes_somos.css"
 
 function Nosotros() {
   return (
-    <>
+    <div className="content">
       <h1 className="tituloQuienesSomos">SOMOS A3</h1>
       <p>
          <i><b>Somos</b></i> una empresa que realizamos
@@ -15,7 +15,7 @@ function Nosotros() {
         recurrimos a usted para que con su ayuda podamos hacer que los niños con
         un diagnóstico de cáncer reciban el tratamiento y terapias que
         necesitan. </p>
-        <div className="logo">
+        <div className="logo-cover2">
       <img className="logoCampaña" src={"/LOGO-SOMOS-A3.png"} alt="Logo de la campaña" />
       </div>
         <p>La campaña se llama <b>"LO CONSEGUIMOS CON TU AYUDA"</b>, dirigida
@@ -29,7 +29,7 @@ function Nosotros() {
         afectadas, sigamos brindando apoyo y poniendo un rayito de luz y
         esperanza cuando más lo necesitan.
       </p>
-    </>
+    </div>
   );
 }
 

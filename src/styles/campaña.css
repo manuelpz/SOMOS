@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap");
 
+h1{
+  margin-top: 10px !important;
+}
+
 .tituloCampaña {
   font-family: "Short Stack", cursive;
   text-transform: uppercase;
@@ -22,4 +26,11 @@
 
 .textoAgradecimiento{
     text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+.content{
+  padding-bottom: 50px;
+  }
 }
