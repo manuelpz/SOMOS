@@ -1,49 +1,23 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import TarjetaCaramelo from "../components/caramelos/TarjetaCaramelo";
-import TarjetaMinizum from "../components/caramelos/TarjetaMinuzum";
-import TarjetaNapolitana from "../components/caramelos/TarjetaNapolitana";
-import TarjetaPiruletaRedonda from "../components/caramelos/TarjetaPiruletaRedonda";
-import TarjetaCarameloBlando from "../components/caramelos/TarjetaCarameloBlando";
-import TarjetaGumy from "../components/caramelos/TarjetaGumy";
-import TarjetaSugus from "../components/caramelos/TarjetaSugus";
-import TarjetaSolano from "../components/caramelos/TarjetaSolano";
+import cards from "../json/caramelos.json"
+import CartaEstandar from "../components/CartaEstandar";
+import "../styles/tarjetas.css"
+import "../styles/oficina.css"
+import { Container } from "react-bootstrap";
 
-function Caramelos() {
-  return (
-    <Container>
-      <Row>
-        <Col>
-          <TarjetaCaramelo />
-        </Col>
-        <Col>
-          <TarjetaMinizum />
-        </Col>
-        <Col>
-          <TarjetaNapolitana />
-        </Col>
-        <Col>
-          <TarjetaPiruletaRedonda />
-        </Col>
-      </Row>
-      <Row>  
-        <Col>
-          <TarjetaCarameloBlando />
-        </Col>
-        <Col>
-          <TarjetaGumy />
-        </Col>
-        <Col>
-          <TarjetaSugus />
-        </Col>
-        <Col>
-          <TarjetaSolano />
-        </Col>
-      </Row>
-    </Container>
-  );
+export default function Celulosa() {
+    const Tarjeta = ({ cards }) => {
+        return (
+            cards.map((card) => {
+                    return <CartaEstandar key={card.id} card={card} />
+            }
+            ))
+    }
+    return (
+        <div>
+            <Container>
+                <Tarjeta cards={cards}></Tarjeta>
+            </Container>
+        </div>
+    );
 }
-
-export default Caramelos;

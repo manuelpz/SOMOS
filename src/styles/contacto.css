@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap");
+
 Form {
   border: 1px solid lightgray;
   border-radius: 10px;
   padding: 20px;
+}
+
+.contactanos{
+  font-family: "Short Stack", cursive;
 }
 
 .contacto {

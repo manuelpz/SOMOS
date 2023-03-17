@@ -1,8 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap");
+
+p{
+  text-align: left;  
+}
+
 .tituloQuienesSomos,p{
     margin:10px;
 }
 
 .tituloQuienesSomos{
+    font-family: "Short Stack", cursive;
     text-align: center;
     margin-top: 10px !important;
     margin-bottom: 10px !important;
@@ -11,13 +18,9 @@
     letter-spacing: 5px;
 }
 
-p{
-  text-align: left;  
-}
-
-.logo-cover2{
+.logo-cover3{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 5px;
   width: 100%;
 }

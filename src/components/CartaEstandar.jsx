@@ -31,16 +31,16 @@ export default function CartaOficina({ card }) {
                                             return <img key={index}
                                                 className="img1"
                                                 src={card.src}
-                                                alt="Imagen de celulosa" />
+                                                alt="Imagen del producto" />
                                         }) : null}
                                 </Col>
                             </Row>
                         </Container>
+                    </Card.Body>
                         <b>
                             <br />
                             <i>¡Tócame para saber más!</i>{" "}
                         </b>
-                    </Card.Body>
                 </Card>
 
                 <Card

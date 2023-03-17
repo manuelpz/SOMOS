@@ -15,7 +15,7 @@ function Nosotros() {
         recurrimos a usted para que con su ayuda podamos hacer que los niños con
         un diagnóstico de cáncer reciban el tratamiento y terapias que
         necesitan. </p>
-        <div className="logo-cover2">
+        <div className="logo-cover3">
       <img className="logoCampaña" src={"/LOGO-SOMOS-A3.png"} alt="Logo de la campaña" />
       </div>
         <p>La campaña se llama <b>"LO CONSEGUIMOS CON TU AYUDA"</b>, dirigida

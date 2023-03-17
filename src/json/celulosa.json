@@ -6,12 +6,6 @@
         "img": [
             {
                 "src": "/celulosa/colhogar.jpg"
-            },
-            {
-                "src": "/celulosa/colhogar2.jpg"
-            },
-            {
-                "src": "/celulosa/colhogar3.jpg"
             }
         ]
     },
@@ -22,12 +16,6 @@
         "img": [
             {
                 "src": "/celulosa/papel_industrial.jpg"
-            },
-            {
-                "src": "/celulosa/papel_industrial2.jpg"
-            },
-            {
-                "src": "/celulosa/papel_industrial3.jpg"
             }
         ]
     },
@@ -38,12 +26,6 @@
         "img": [
             {
                 "src": "/celulosa/bobina.jpg"
-            },
-            {
-                "src": "/celulosa/bobina2.jpg"
-            },
-            {
-                "src": "/celulosa/bobina3.jpg"
             }
         ]
     },
@@ -53,9 +35,6 @@
         "descripcion": "Servilleta 40x40 de 2 Capas está fabricada en celulosa y está recomendada para utilizarse en negocios de hostelería. Las servilletas de papel desempeñan una función necesaria en las mesas para el buen servicio al comensal. Las servilleta de papel 2 capas 40×40 cm se ha convertido en el elemento higiénico preferido por los consumidores, no sólo por el hecho de ser desechable y económica, sino también se encuentra una característica de este producto que lo convierte en un elemento muy útil: su gran poder de absorción en superficies húmedas, además de su fácil uso. Las servilletas o toallas de papel se emplean además como elementos higiénicos para secar superficies mojadas o húmedas, secar las manos mojadas, secar algunos alimentos, entre otros. Debido a que son fabricadas en celulosa, esto le confiere un mayor grosor y una apariencia más robusta. Colores disponibles: Blanco Rojo Verde Azul Amarillo",
         "img": [
             {
-                "src": "/celulosa/servilleta.jpg"
-            },
-            {
                 "src": "/celulosa/servilleta2.jpg"
             }
         ]
@@ -64,10 +43,7 @@
         "id": 5,
         "titulo": "Pañuelos tissues",
         "descripcion": "Pañuelos faciales extra suaves. 2 capas de tisú interplegadas. Pañuelos tissues blancos son de alta calidad, ideales para limpiar cualquier zona del cuerpo y o superficie. Textura suave y delicada. Papel de celulosa 100 % virgen, 2 capas laminadas. Envoltura de plástico reciclado.",
-        "img": [
-            {
-                "src": "/celulosa/pañuelos2.jpg"
-            },
+        "img": [           
             {
                 "src": "/celulosa/pañuelos3.jpg"
             }

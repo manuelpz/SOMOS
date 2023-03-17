@@ -10,6 +10,10 @@
   overflow: auto;
 }
 
+.card-body{
+  overflow: hidden;
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -18,15 +22,18 @@
 }
 
 .container{
+  width: 100%;
+   height: auto;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .card-img-top{
     height: 75%;
 }
 
-.img1, .img2, .img3, .img4{
-  width: 40%;
+.img1{
+  width: 100%;
   height: auto;
 }
 
@@ -34,3 +41,4 @@
   display: inline-block;
   padding-right: 40px;
 }
+
