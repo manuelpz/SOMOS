@@ -23,15 +23,6 @@
         "img": [
             {
                 "src": "/materialOficina/materialOficina1.jpg"
-            },
-            {
-                "src": "/materialOficina/materialOficina2.jpg"
-            },
-            {
-                "src": "/materialOficina/materialOficina3.jpg"
-            },
-            {
-                "src": "/materialOficina/materialOficina4.jpg"
             }
         ]
     },
@@ -77,16 +68,13 @@
     {
         "id": 3,
         "titulo": "Papel",
-        "elementos": "Cuadernos, Archivadores, Folios, Blocs, Libretas, adhesivos, posit, post it",
+        "elementos": "Cuadernos, Folios, Blocs, Libretas, adhesivos, posit, post it",
         "back": [
             {
                 "item": "Cuadernos"
             },
             {
-                "item": "Archivadores"
-            },
-            {
-                "item": "Folios Din A4"
+                "item": "Folios (Din A4, A5...)"
             },
             {
                 "item": "Blocs"
@@ -101,12 +89,72 @@
         "img": [
             {
                 "src": "/materialOficina/cuadernos.jpg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Organización",
+        "elementos": "Archivadores, Clasificador, Fundas, Anillas, carpetas, album, álbum, albumes, álbumes, ficheros",
+        "back": [
+            {
+                "item": "Clasificador"
             },
             {
-                "src": "/materialOficina/blocs.jpg"
+                "item": "Archivadores"
             },
             {
-                "src": "/materialOficina/folios.jpg"
+                "item": "Fundas de plástico"
+            },
+            {
+                "item": "Carpetas con anillas"
+            },
+            {
+                "item": "Álbumes"
+            },
+            {
+                "item": "Ficheros"
+            }
+        ],
+        "img": [
+            {
+                "src": "/materialOficina/archivadores.jpg"
+            },
+            {
+                "src": "/materialOficina/fichero.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Embalaje",
+        "elementos": "Cinta adhesiva, adesiva, adesiba, adhesiba, cuter, tijeras, papel de embalar, tijeras, plástico de burbujas, plastico de burbujas, papel de burbujas, gomas, bolsas con autocierre, fiso, fixo",
+        "back": [
+            {
+                "item": "Cinta adhesiva"
+            },
+            {
+                "item": "Cuter"
+            },
+            {
+                "item": "Tijeras"
+            },
+            {
+                "item": "Plástico de burbujas"
+            },
+            {
+                "item": "Gomas"
+            },
+            {
+                "item": "Bolsas con autocierre"
+            },
+            {
+                "item": "Fiso"
+            }
+        ],
+        "img": [
+            {
+                "src": "/materialOficina/cinta.jpg"
             }
         ]
     }

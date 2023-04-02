@@ -22,7 +22,7 @@ export default function CartaOficina({ card }) {
           }}
         >
           <Card.Title>{card.titulo}</Card.Title>
-          <Card.Body className="card-body-oficina">
+          <Card.Body className="zoom-effect">
             <Container>
               <Row>
                 <Col>
@@ -36,10 +36,6 @@ export default function CartaOficina({ card }) {
                 </Col>
               </Row>
             </Container>
-            <b>
-              <br/>
-              <i>¡Tócame para saber más!</i>{" "}
-            </b>
           </Card.Body>
         </Card>
 

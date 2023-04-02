@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap");
 
-Form {
+form {
   border: 1px solid lightgray;
   border-radius: 10px;
   padding: 20px;
 }
 
-.contactanos{
+.contactanos {
   font-family: "Short Stack", cursive;
 }
 
@@ -15,11 +15,11 @@ Form {
   margin: 20px 15px;
 }
 
-.content{
+.content {
   padding-bottom: 10%;
 }
 
-.contact{
+.contact {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 5px;
@@ -29,44 +29,44 @@ Form {
   align-content: stretch;
 }
 
-.centered{
+.centered {
   text-align: center;
 }
 
-.telefonoIcono{
+.telefonoIcono {
   width: 20px;
 }
 
-.textoInformativo{
+.textoInformativo {
   text-align: center;
   margin-top: 15px;
 }
 
-.disponibilidad{
+.disponibilidad {
   text-align: center;
 }
 
-.telefonoConjunto{
+.telefonoConjunto {
   display: flex;
   justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
-  h2{
+  h2 {
     margin-top: 15px !important;
   }
-  
-  .telefono{
+
+  .telefono {
     text-align: center;
     float: left;
     clear: right;
   }
 
-  .telefonoIcono{
+  .telefonoIcono {
     width: 5%;
   }
 
-  .contact{
+  .contact {
     display: grid;
     grid-template-columns: 100%;
     gap: 5px;
@@ -76,7 +76,7 @@ Form {
     align-content: stretch;
   }
 
-  .disponibilidad{
+  .disponibilidad {
     text-align: center;
   }
 }

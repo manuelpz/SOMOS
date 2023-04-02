@@ -10,7 +10,7 @@ const TEMPLATE_ID = "template_ifgiakn";
 const USER_ID = "gC4tUjuxBRdy0YPjN";
 
 const Contacto = () => {
-  const NUMERO_DE_TELEFONO = 608986962;
+  const NUMERO_DE_TELEFONO = 624007966;
   const handleOnSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
@@ -86,9 +86,8 @@ const Contacto = () => {
             <h2>
               <b className="contactanos">Llámanos</b>
             </h2>
-            <p className="disponibilidad">
-              Disponibilidad de <i>Lunes</i> a <i>Viernes</i> de <b>09:00</b> a{" "}
-              <b>20:00</b> horas.
+            <p className="disponibilidad"><i>Lunes</i> a <i>Viernes</i> <br /> <u>Mañanas</u>: <b>09:30</b> a{" "}
+              <b>14:00</b> <br/> <u>Trades</u>: <b>16:00</b> a <b>20:00</b>
             </p>
             <div className="telefonoConjunto">
               <img
@@ -103,12 +102,6 @@ const Contacto = () => {
                 </a>
               </p>
             </div>
-            <p className="textoInformativo">
-              <i>
-                Las llamadas a este número de teléfono no tendrán ningún coste
-                adicional en su factura
-              </i>
-            </p>
           </div>
         </div>
       </div>

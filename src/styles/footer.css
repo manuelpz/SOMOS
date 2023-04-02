@@ -1,18 +1,16 @@
-.footer{
-    display: grid;
-    background-color: #990099;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 1em 0;
-    align-items: center;
-    margin:auto;
+.footer {
+  display: grid;
+  background-color: #990099;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1em 0;
+  align-items: center;
+  margin: auto;
 }
 
-.footerText{
-    color:white;
-    text-align: left;
-    margin-left: 5%;
+.footerText {
+  color: white;
+  text-align: left;
+  margin-left: 5%;
 }
-
-

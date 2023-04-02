@@ -9,7 +9,7 @@ export default function Celulosa() {
     const Tarjeta = ({ cards }) => {
         return (
             cards.map((card) => {
-                    return <CartaEstandar key={card.id} card={card} />
+                return <CartaEstandar key={card.id} card={card} />
             }
             ))
     }

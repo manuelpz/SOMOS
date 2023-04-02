@@ -1,43 +1,59 @@
-.cabecera{
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    margin-top: 2%;
-    margin-right:4% ;
+.cabecera {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  margin-right: 4%;
 }
 
-.col-sm{
-    margin-bottom: 2%;
+.col-sm {
+  margin-bottom: 2%;
 }
 
-.titulo{
-    font-weight: bold;
-    text-align: center;
+.titulo {
+  font-weight: bold;
+  text-align: center;
 }
 
-.sub{
-    font-style: italic;
-    text-align: center;
+.sub {
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.sub2 {
+  text-align: center;
+  font-weight: bold;
 }
 
 .col1 {
-    display: flex;
-    justify-content: center;
+  display: grid;
 }
-.col2{
-    display: block !important;
-}
-
-.col3{
-    display:initial ;
+.col2 {
+  display: block !important;
 }
 
-.todosCancer{
-    width: 50%;
-    display:block;
+.col3 {
+  display: initial;
+}
+
+.content {
+  padding-bottom: 10%;
+}
+
+@media screen {
+  .avatar {
+    width: 80%;
+    height: 80%;
+    display: block;
     margin: auto;
-}
+    margin-bottom: 20px;
+  }
 
-.content{
-    padding-bottom: 10%;
+  .todosCancer {
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
 }

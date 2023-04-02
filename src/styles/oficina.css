@@ -10,3 +10,7 @@
     margin-left: 15px;
     margin-top: 10px;
 }
+
+.card-body-oficina{
+    overflow: auto;
+}

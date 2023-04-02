@@ -6,10 +6,6 @@
   display: flex !important;
 }
 
-.card-body-oficina{
-  overflow: auto;
-}
-
 .card-body{
   overflow: hidden;
 }
@@ -40,5 +36,13 @@
 .card-flip{
   display: inline-block;
   padding-right: 40px;
+}
+
+.zoom-effect{
+  transition: transform .5s ease;
+}
+
+.zoom-effect:hover{
+  transform: scale(1.2);
 }
 
