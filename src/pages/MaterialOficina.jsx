@@ -6,6 +6,8 @@ import "../styles/oficina.css"
 import { Container } from "react-bootstrap";
 
 export default function MaterialOficina() {
+    const [value, setValue] = useState({ input: "" });
+    
     let contador = 0
     const Tarjeta = ({ cards }) => {
         return (
@@ -24,28 +26,17 @@ export default function MaterialOficina() {
             }
             ))
     }
-
-    const [value, setValue] = useState({ input: "" });
-    const seteaValor = (event) => {
-        setValue({
-            ...value,
-            [event.target.name]: event.target.value,
-        })
-    }
     return (
         <>
             <h1 className="tituloOficina">MATERIAL DE OFICINA</h1>
             <p>Disponemos de más de 3.000 productos de material de oficina para tu empresa. Papelería, material escolar, papelería corporativa, consumibles informáticos y máquinas.Ofrecemos productos de papelería de marcas de gran prestigio.Puedes consultarnos los productos que tenemos disponibles.</p>
             <label className="input"><b><i>¿Buscas algo en concreto?</i></b></label>
             <br />
-            <input
-                className="input"
-                name="input"
-                onKeyUp={seteaValor}
-                defaultValue={value.input}
-                type={"text"}
-                placeholder="Tijeras, lápices, sacapuntas..."
-            ></input><br />
+            <div>
+                <input type="text" value={value.input} onChange={e => setValue({ input: e.target.value })} />
+                <button onClick={() => {setValue({input: ""})}} >X</button>
+            </div>
+            <br />
             <Container>
                 <Tarjeta cards={cards}></Tarjeta>
             </Container>
