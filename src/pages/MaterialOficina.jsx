@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import cards from "../json/materialOficina.json"
 import CartaOficina from "../components/CartaOficina";
 import "../styles/tarjetas.css"
@@ -6,39 +6,59 @@ import "../styles/oficina.css"
 import { Container } from "react-bootstrap";
 
 export default function MaterialOficina() {
-    const [value, setValue] = useState({ input: "" });
-    
-    let contador = 0
-    const Tarjeta = ({ cards }) => {
-        return (
-            cards.map((card) => {
-                if (card.hasOwnProperty("elementos") && value.input !== "" && (card.elementos.toLowerCase().includes(value.input) || card.elementos.includes(value.input))) {
-                    return <CartaOficina key={card.id} card={card} />
-                }
-                else if (value.input === "") {
-                    return <CartaOficina key={card.id} card={card} />
+    const [value, setValue] = useState({ input: "" })
+    const [cardList, setCardList] = useState ([])
+    const [hayProducto, setHayProducto] = useState(false)
 
-                }
-                else contador++
-                if (contador === cards.length)
-                    return <h1 key={card.id}>!Lo sentimos! No hemos encontrado "{value.input}"</h1>
-                return null
-            }
-            ))
+
+    useEffect(() => {
+        if (value.input !== "") {
+            const newList = cards.filter(card => card.hasOwnProperty("elementos") && (card.elementos.toLowerCase().includes(value.input) || card.elementos.includes(value.input)))
+            setCardList(newList);
+            setHayProducto(true)
+        }
+        else if (value.input === ""){
+            const newList = cards
+            setCardList(newList);
+            setHayProducto(false)
+        } 
+        else {
+            setCardList([])
+            setHayProducto(false)
+        }
+    }, [value.input]);
+
+    const limpia = () =>{
+        setValue({ input: "" })
+        setCardList([])
     }
+
+
     return (
         <>
             <h1 className="tituloOficina">MATERIAL DE OFICINA</h1>
             <p>Disponemos de más de 3.000 productos de material de oficina para tu empresa. Papelería, material escolar, papelería corporativa, consumibles informáticos y máquinas.Ofrecemos productos de papelería de marcas de gran prestigio.Puedes consultarnos los productos que tenemos disponibles.</p>
             <label className="input"><b><i>¿Buscas algo en concreto?</i></b></label>
             <br />
-            <div>
-                <input type="text" value={value.input} onChange={e => setValue({ input: e.target.value })} />
-                <button onClick={() => {setValue({input: ""})}} >X</button>
+            <div className="input">
+                <input type="text" value={value.input} onChange={e =>{
+                    setValue({ input: e.target.value })
+                   }} />
+                <button onClick={limpia} >X</button>
             </div>
             <br />
             <Container>
-                <Tarjeta cards={cards}></Tarjeta>
+                {cardList.length > 0 ? (
+                    <>
+                        {hayProducto ? <h1>¡Disponemos del producto <b>{value.input}</b> ✔!</h1> :"" }   
+                <ul>
+                    {cardList.map(card => <CartaOficina key={card.id} card={card} />)}
+                    
+                </ul>
+                    </>
+                    ): (
+                    <h1>Lo sentimos, no disponemos de "{value.input}" </h1>
+                )}
             </Container>
         </>
     );
