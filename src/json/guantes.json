@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "titulo": "GUANTES DE NITRILO",
+        "descripcion": "Color blanco, negro. Muy resistente, buena barrera de protección, se ajustan bien a la mano, ambidiestros, sin polvo, para uso alimentario. No estéril y libres de polvo. Fabricados con Nitrilo 100% sintético. No contiene látex ni polvo, reduciendo así las probabilidades de alergia. Todos los guantes son válidos para las dos manos y son de un solo uso. Micro texturizado de las puntas de los dedos para facilitar el agarre y la manipulación de objetos con los guantes puestos. 100 unidades por estuche. Desechables, en color azul y negro interior sin polvo y con acabado texturizado, lo que permite un mejor agarre. Adecuados para personas alérgicas al látex. Disponibles en diversas tallas",
+        "img": [
+            {
+                "src": "/guantes/guantes-nitrilo.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "GUANTES DESECHABLES PARA MECÁNICO",
+        "descripcion": "Protege algo tan fundamental o más que tus herramientas... ¡tus manos! Son las únicas que siempre estarán contigo en tus trabajos manuales y de taller. En todos los trabajos existen riesgos de que ocurran accidentes. Por eso es importante tomar previsiones que puedan disminuir la gravedad del incidente. ¿Qué clase de medidas puedes tomar? Puede. serte muy útil usar guantes desechables para mecánico dentro del taller ya que así puedes contrarrestar el impacto de un accidente. Los guantes desechables para mecánico son una gran protección. En el caso de los guantes de nitrilo los ofrecemos en una presentación de 100 unidades. En vista de las diferentes tallas que están disponibles siempre encontrarás un guante que se adapte a tus manos. Además según los modelos en guantes desechables de trabajo para taller mecánico, le ofrecemos a los ambidiestros el guante a la medida. Puedes usar el mismo guante en ambas manos sin ninguna clase de problema. Manteniendo la misma comodidad y un excelente agarre con la calidad que nos caracteriza siempre. Los guantes de trabajo Muc-off son perfectos para cualquier persona que trabaje en una bicicleta, motocicleta o automóvil, los guantes mecánicos están diseñados para ofrecer a la mano una comodidad total de 360 ° y protección contra la mayoría de cortes y rasguños con un impacto mínimo en la destreza. ¡Atrás quedaron los días de quitarse la piel de los nudillos al quitar un perno o pedal difícil de quitar! Disponibles todas las tallas .La marca varía según el material de fabricación de los guantes (Nylon, poliuretano, nitrilo, poliéster...etc)",
+        "img": [
+            {
+                "src": "/guantes/guantes-desechables.jpg"
+            }
+        ]
+    }
+]

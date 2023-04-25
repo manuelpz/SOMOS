@@ -13,6 +13,9 @@ import "./styles/footer.css";
 import "./styles/carousel.css";
 import Plan from "./pages/Campaña";
 import Celulosa from "./pages/Celulosa";
+import Guantes from "./pages/Guantes";
+import Bolsas from "./pages/Bolsas";
+import Higiene from "./pages/Higiene";
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
           <Route exact path="/caramelos" element={<Caramelos />} />
           <Route exact path="/oficina" element={<MaterialOficina />} />
           <Route exact path="/celulosa" element={<Celulosa />} />
+          <Route exact path="/guantes" element={<Guantes />} />
+          <Route exact path="/bolsas" element={<Bolsas />} />
+          <Route exact path="/higiene" element={<Higiene />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </Router>

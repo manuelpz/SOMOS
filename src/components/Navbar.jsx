@@ -33,6 +33,15 @@ export default function Navegationbar() {
               <NavDropdown.Item as={Link} to="/oficina">
                 Material de oficina
               </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/bolsas">
+                Bolsas
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/guantes">
+                Guantes
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/higiene">
+                Higiene
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link eventKey="3" as={Link} to="/nosotros">
               <b>Quienes somos</b>
