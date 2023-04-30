@@ -10,7 +10,7 @@ const TEMPLATE_ID = "template_ifgiakn";
 const USER_ID = "gC4tUjuxBRdy0YPjN";
 
 const Contacto = () => {
-  const NUMERO_DE_TELEFONO = +34968624007966
+  const NUMERO_DE_TELEFONO = "tel:+34968624007966"
   const TELEFONO_OFICIAL = 624007966
   const handleOnSubmit = (e) => {
     e.preventDefault();
@@ -98,7 +98,7 @@ const Contacto = () => {
               />
               <p className="telefono">
                 <b>Teléfono:</b>{" "}
-                <a href="tel:{NUMERO_DE_TELEFONO}">
+                <a href={NUMERO_DE_TELEFONO}>
                   {TELEFONO_OFICIAL}
                 </a>
               </p>
