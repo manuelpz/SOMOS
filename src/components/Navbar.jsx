@@ -23,12 +23,15 @@ export default function Navegationbar() {
             <Nav.Link className="borde" eventKey="2" as={Link} to="/plan">
               <b>Campaña</b>
             </Nav.Link>
+            <Nav.Link eventKey="3" as={Link} to="/nosotros">
+              <b>Quienes somos</b>
+            </Nav.Link>
             <NavDropdown className="borde" title="Productos" id="navbarScrollingDropdown">
               <NavDropdown.Item as={Link} to="/caramelos">
                 Caramelos
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/celulosa">
-                Celulosa
+              <NavDropdown.Item as={Link} to="/alimentacion">
+                Alimentación y bebidas
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/oficina">
                 Material de oficina
@@ -39,13 +42,13 @@ export default function Navegationbar() {
               <NavDropdown.Item as={Link} to="/guantes">
                 Guantes
               </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/celulosa">
+                Celulosa
+              </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/higiene">
                 Higiene
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link eventKey="3" as={Link} to="/nosotros">
-              <b>Quienes somos</b>
-            </Nav.Link>
             <Nav.Link eventKey="4" as={Link} to="/contacto">
               <b>Contacto</b>
             </Nav.Link>

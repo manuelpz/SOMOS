@@ -18,5 +18,24 @@
                 "src": "/guantes/guantes-desechables.jpg"
             }
         ]
+    },{
+        "id": 3,
+        "titulo": "GUANTES DE LATEX CON POLVO",
+        "descripcion": "Son muy utilizados en la industria ligera y en el ámbito doméstico. También pueden usarse en la industria de la alimentación ya que estos guantes con polvo cumplen con lo requerido a la EN 1186 del reglamento 10/2011 referente a materiales destinados a entrar en contacto con alimentos. No utilizar para la manipulación con disolventes orgánicos. Este producto contiene látex de caucho natural que puede causar reacciones alérgicas. Mantener almacenado en un lugar fresco y seco. Evitar el exceso de calor y proteger de la exposición solar directa o iluminación fluorescente. No almacenar estos guantes desechables con disolventes orgánicos ya que pueden degradarlos. La ventilación no es necesaria bajo condiciones normales de almacenamiento. NO REUTILIZAR. Disponibles en diversas tallas: Estos guantes látex con polvo están disponibles en todas las tallas para adaptarse a cada cliente. Están disponibles desde la talla XS, S, M, L hasta la XL.",
+        "img": [
+            {
+                "src": "/guantes/guantes-latex-polvo.jpg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "GUANTES DE LATEX SIN POLVO",
+        "descripcion": "Guantes de latex blancos sin polvo. Un solo uso. Servidos en caja dispensadora con 100 guantes de latex. Caja de 100 guantes de latex sin polvo en color blanco. Guantes desechables de un solo uso ambidiestros. Guantes de Látex libres de polvos de talco, lo que evita alergias y facilita su colocación. Alta calidad y seguridad garantizada. Guantes de látex sin polvo y uso médico, para la prevención de la infección cruzada en aquellas prácticas sanitarias que comportan un contacto usuario-paciente. Especialmente indicados para aquellas tareas que requieren protección frente a microorganismos y agentes químicos. Estos guantes ofrecen equilibrio entre sensibilidad táctil y resistencia ayudando a realizar las tareas con mayor precisión. Disponibles en varias tallas. ",
+        "img": [
+            {
+                "src": "/guantes/guantes-latex-sin-polvo.jpg"
+            }
+        ]
     }
 ]

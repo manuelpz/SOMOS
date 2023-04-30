@@ -11,6 +11,16 @@
     },
     {
         "id": 2,
+        "titulo": "CARAMELO CON PALO SIN AZUCAR",
+        "descripcion": "El Space Chupi es un caramelo con palo sin gluten y sin azúcar. Experimenta el auténtico sabor de tus caramelos con palo de un surtido de sabores de frutas y cola, pero sin azúcar y conservando toda la calidad y sabor. Perfectos para aquellos que quieran darse un capricho pero al mismo tiempo evitar un producto con azúcar. Presentados en un bote con expositor con 50 unidades. Cada unidad va envuelta individualmente.",
+        "img": [
+            {
+                "src": "/caramelos/space-chupi.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
         "titulo": "PIKOTAS",
         "descripcion": "Estas Deliciosas Pikotas nos sorprendieron y conquistaron en los años 90, Bolitas deliciosas de caramelo blando con intenso sabor a Cereza. ¿Quien no las adora?",
         "img": [
@@ -20,7 +30,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "titulo": "GUMMY",
         "descripcion": "Los caramelos de goma Gummy Jelly, son los auténticos Gummy de toda la vida, sorprendentes por su textura blandita y agradable y deliciosos por su increíble sabor surtido de frutas. Surtido de sabores frutales (fresa, naranja, limón, piña). Cada unidadviene envuelta individualmente. Media aproximada de cada gummy de 3 x 1,5 cm. Los caramelos no contienen gluten.",
         "img": [
@@ -30,7 +40,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "titulo": "MINIZUM",
         "descripcion": "Para los amantes de lo tradicional. Con un surtido muy completo de sabores de frutas entre los que se encuentran: melón, naranja, piña, mora, fresa y limón. Presentados en una bolsa de un kilo y envueltos individualmente. En cada bolsa hay 430 unidades aproximadamente. Elaborados SIN GLUTEN y con colorantes naturales. Son unos caramelos excelentes para pasar un buen rato y disfrutar de sabores intenso.",
         "img": [
@@ -40,7 +50,17 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
+        "titulo": "MINIZUM SIN AZUCAR",
+        "descripcion": "Los minizum de Pictolin, son una variante de caramelos destinado a los amantes de lo tradicional. Con un surtido muy completo de sabores de frutas. Presentados en una bolsa de un kilo y envueltos individualmente. Cada bolsa tiene 430 unidades aproximadamente. Elaborados SIN GLUTEN, SIN AZÚCAR y con colorantes naturales. Los caramelos Pictolin sin azúcar están elaborados con Isomalt, un ingrediente base para los caramelos sin azúcar, se trata de un poliol con la mitad de calorías (2,0 cal/g). Además su índice glucémico es 7 veces menor que la sacarosa, lo que hace que los caramelos sin azúcar sean aptos para diabéticos.",
+        "img": [
+            {
+                "src": "/caramelos/minizum-sin-azucar.jpg"
+            }
+        ]
+    },
+    {
+        "id": 7,
         "titulo": "NAPOLITANA DE CHOCOLATE",
         "descripcion": " Bolsa de 1kg , alrededor 230 unidades de deliciosas mini chocolatinas. Contiene dos tipos, una de chocolate negro ( cacao min 60%) y otra de chocolate con leche (cacao min 29%) . Envueltos de manera individual con la palabra gracias en varios idiomas. Ideal para acompañar tu café. Sus medidas son 4 cm de largo X 2.5 cm de ancho.",
         "img": [
@@ -50,7 +70,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 8,
         "titulo": "PIRULETA REDONDA",
         "descripcion": "Piruleta redonda que vienen envueltas de sabores. Bolsa de 200 unidades. Sin Gluten",
         "img": [
@@ -60,7 +80,17 @@
         ]
     },
     {
-        "id": 7,
+        "id": 9,
+        "titulo": "PIRULETA CORAZON",
+        "descripcion": "Deliciosa piruleta de corazón. Sin gluten.",
+        "img": [
+            {
+                "src": "/caramelos/piruleta-corazon.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10,
         "titulo": "CARAMELOS SOLANO",
         "descripcion": "Bolsa con 330 caramelos del tradicional sabor a café con leche. Un suave y cremoso sabor, sin azúcar; de la marca Solano Aunque las especialidades de la marca son por tradición los caramelos de café con leche, con el tiempo han ido desarrollando otros sabores, como los caramelos de menta y nata, o los de mouse de limón. Así como los de sabor cappuccino o los de café expreso que reinventan las pastillas originales.",
         "img": [
@@ -70,7 +100,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 11,
         "titulo": "SUGUS",
         "descripcion": "Caramelo blando masticable sabor fruta bolsa 1kg",
         "img": [
@@ -80,7 +110,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 12,
         "titulo": "PIRULETAS ZOMBIE",
         "descripcion": "Cubo con Forma de Cabeza de Zombie con 175 Unidades de sabores variados. Sin Gluten ni Alérgenos. Ideal para Eventos y Cumpleaños",
         "img": [

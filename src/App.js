@@ -16,6 +16,7 @@ import Celulosa from "./pages/Celulosa";
 import Guantes from "./pages/Guantes";
 import Bolsas from "./pages/Bolsas";
 import Higiene from "./pages/Higiene";
+import Alimentacion from "./pages/Alimentacion";
 
 function App() {
   return (
@@ -33,12 +34,13 @@ function App() {
           <Route exact path="/guantes" element={<Guantes />} />
           <Route exact path="/bolsas" element={<Bolsas />} />
           <Route exact path="/higiene" element={<Higiene />} />
+          <Route exact path="/alimentacion" element={<Alimentacion />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </Router>
       <Footer />
     </div>
-  );
+  )
 }
 
 export default App;

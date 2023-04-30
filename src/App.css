@@ -13,3 +13,7 @@ body{
 .content{
     margin-bottom: 10%;
 }
+
+h1{
+    font-family: Helvetica, sans-serif;
+}
