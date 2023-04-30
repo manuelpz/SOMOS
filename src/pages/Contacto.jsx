@@ -10,7 +10,7 @@ const TEMPLATE_ID = "template_ifgiakn";
 const USER_ID = "gC4tUjuxBRdy0YPjN";
 
 const Contacto = () => {
-  const NUMERO_DE_TELEFONO = "tel:+34968624007966"
+  const NUMERO_DE_TELEFONO = "tel:624007966"
   const TELEFONO_OFICIAL = 624007966
   const handleOnSubmit = (e) => {
     e.preventDefault();
