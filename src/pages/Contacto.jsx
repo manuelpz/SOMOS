@@ -10,7 +10,7 @@ const TEMPLATE_ID = "template_ifgiakn";
 const USER_ID = "gC4tUjuxBRdy0YPjN";
 
 const Contacto = () => {
-  const NUMERO_DE_TELEFONO = 624007966;
+  const NUMERO_DE_TELEFONO = +34958624007966;
   const handleOnSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
@@ -97,7 +97,7 @@ const Contacto = () => {
               />
               <p className="telefono">
                 <b>Teléfono:</b>{" "}
-                <a href={NUMERO_DE_TELEFONO}>
+                <a href="tel:{NUMERO_DE_TELEFONO}">
                   {NUMERO_DE_TELEFONO}
                 </a>
               </p>
