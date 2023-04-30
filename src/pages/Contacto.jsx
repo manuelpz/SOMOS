@@ -10,7 +10,8 @@ const TEMPLATE_ID = "template_ifgiakn";
 const USER_ID = "gC4tUjuxBRdy0YPjN";
 
 const Contacto = () => {
-  const NUMERO_DE_TELEFONO = +34958624007966;
+  const NUMERO_DE_TELEFONO = +34968624007966
+  const TELEFONO_OFICIAL = 624007966
   const handleOnSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
@@ -87,7 +88,7 @@ const Contacto = () => {
               <b className="contactanos">Llámanos</b>
             </h2>
             <p className="disponibilidad"><i>Lunes</i> a <i>Viernes</i> <br /> <u>Mañanas</u>: <b>09:30</b> a{" "}
-              <b>14:00</b> <br/> <u>Trades</u>: <b>16:00</b> a <b>20:00</b>
+              <b>14:00</b> <br /> <u>Trades</u>: <b>16:00</b> a <b>20:00</b>
             </p>
             <div className="telefonoConjunto">
               <img
@@ -98,7 +99,7 @@ const Contacto = () => {
               <p className="telefono">
                 <b>Teléfono:</b>{" "}
                 <a href="tel:{NUMERO_DE_TELEFONO}">
-                  {NUMERO_DE_TELEFONO}
+                  {TELEFONO_OFICIAL}
                 </a>
               </p>
             </div>
