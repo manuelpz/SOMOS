@@ -97,7 +97,7 @@ const Contacto = () => {
               />
               <p className="telefono">
                 <b>Teléfono:</b>{" "}
-                <a href="tel:{NUMERO_DE_TELEFONO}">
+                <a href={NUMERO_DE_TELEFONO}>
                   {NUMERO_DE_TELEFONO}
                 </a>
               </p>
