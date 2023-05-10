@@ -38,5 +38,15 @@
                 "src": "/higiene/jabon-liquido.jpg"
             }
         ]
+    },
+    {
+        "id": 5,
+        "titulo": "PAPEL CAMILLA GOFRADO",
+        "descripcion": "Rollo Papel Camilla Blanco 1 Capa Gofrado. Precorte a 2m. Medidas: Ancho 58 cm, Largo 70 metros. Proporciona máxima higiene y resistencia para su uso en camillas y/o similares. Adecuado para clínicas, consultas, salones de belleza, spas y centros de salud y bienestar. Resistente y muy absorbente.",
+        "img": [
+            {
+                "src": "/higiene/papel-camilla.jpg"
+            }
+        ]
     }
 ]
