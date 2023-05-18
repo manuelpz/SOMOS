@@ -28,7 +28,7 @@ export default function MaterialOficina() {
 
     useEffect(() => {
         checkInput()
-    }, [value.input]);
+    }, [value.input, checkInput]);
 
     const limpia = () =>{
         setValue({ input: "" })
