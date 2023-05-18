@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import cards from "../json/materialOficina.json"
 import CartaOficina from "../components/CartaOficina";
 import "../styles/tarjetas.css"
@@ -9,7 +9,7 @@ export default function MaterialOficina() {
     const [value, setValue] = useState({ input: "" })
     const [cardList, setCardList] = useState ([])
     const [hayProducto, setHayProducto] = useState(false)
-    const checkInput = () => {
+    const checkInput = useCallback(() => {
         if (value.input !== "") {
             const newList = cards.filter(card => card.hasOwnProperty("elementos") && (card.elementos.toLowerCase().includes(value.input) || card.elementos.includes(value.input)))
             setCardList(newList);
@@ -24,7 +24,7 @@ export default function MaterialOficina() {
             setCardList([])
             setHayProducto(false)
         }
-    }
+    }, [value.input])
 
     useEffect(() => {
         checkInput()
