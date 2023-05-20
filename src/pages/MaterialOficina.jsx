@@ -10,7 +10,7 @@ export default function MaterialOficina() {
     const [cardList, setCardList] = useState ([])
     const [hayProducto, setHayProducto] = useState(false)
     const checkInput = useCallback(() => {
-        if (value.input !== "") {
+        if (value.input.trim() !== "") {
             const newList = cards.filter(card => card.hasOwnProperty("elementos") && (card.elementos.toLowerCase().includes(value.input) || card.elementos.includes(value.input)))
             setCardList(newList);
             setHayProducto(true)
