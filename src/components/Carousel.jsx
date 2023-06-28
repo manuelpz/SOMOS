@@ -1,6 +1,6 @@
-import React from "react";
-import Carousel from 'react-bootstrap/Carousel';
-import "../styles/navbar.css";
+import React from "react"
+import Carousel from "react-bootstrap/Carousel"
+import "../styles/navbar.css"
 
 export default function MyCarousel() {
   return (
@@ -28,4 +28,4 @@ export default function MyCarousel() {
       </Carousel.Item>
     </Carousel>
   )
-} 
+}

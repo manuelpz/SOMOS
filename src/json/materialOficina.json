@@ -1,161 +1,161 @@
 [
-    {
-        "id": 1,
-        "titulo": "Material general de oficina",
-        "elementos": "quitagrapas, grapas, papeleras, bandejas, lupas", 
-        "back": [
-            {
-                "item": "Quitagrapas"
-            },
-            {
-                "item": "Grapas"
-            },
-            {
-                "item": "Papeleras"
-            },
-            {
-                "item": "Bandejas"
-            },
-            {
-                "item": "Lupas"
-            }
-        ],
-        "img": [
-            {
-                "src": "/materialOficina/materialOficina1.jpg"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "titulo": "Escritura",
-        "elementos": "Sacapuntas, Bolígrafos, boligrafos, bolis,Rotuladores, Corrector, tipex, goma, Portaminas, minas, lapices, lápices",
-        "back": [
-            {
-                "item": "Sacapuntas"
-            },
-            {
-                "item": "Bolígrafos"
-            },
-            {
-                "item": "Rotuladores"
-            },
-            {
-                "item": "Corrector"
-            },
-            {
-                "item": "Goma de borrar"
-            },
-            {
-                "item": "Portaminas"
-            },
-            {
-                "item": "Lápices"
-            }
-        ],
-        "img": [
-            {
-                "src": "/materialOficina/boligrafos.jpg"
-            },
-            {
-                "src": "/materialOficina/portaminas.jpg"
-            },
-            {
-                "src": "/materialOficina/rotuladores.jpg"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "titulo": "Papel",
-        "elementos": "Cuadernos, Folios, Blocs, Libretas, adhesivos, posit, post it",
-        "back": [
-            {
-                "item": "Cuadernos"
-            },
-            {
-                "item": "Folios (Din A4, A5...)"
-            },
-            {
-                "item": "Blocs"
-            },
-            {
-                "item": "Libretas"
-            },
-            {
-                "item": "Post it (adhesivos)"
-            }
-        ],
-        "img": [
-            {
-                "src": "/materialOficina/cuadernos.jpg"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "titulo": "Organización",
-        "elementos": "Archivadores, Clasificador, Fundas, Anillas, carpetas, album, álbum, albumes, álbumes, ficheros",
-        "back": [
-            {
-                "item": "Clasificador"
-            },
-            {
-                "item": "Archivadores"
-            },
-            {
-                "item": "Fundas de plástico"
-            },
-            {
-                "item": "Carpetas con anillas"
-            },
-            {
-                "item": "Álbumes"
-            },
-            {
-                "item": "Ficheros"
-            }
-        ],
-        "img": [
-            {
-                "src": "/materialOficina/archivadores.jpg"
-            },
-            {
-                "src": "/materialOficina/fichero.jpg"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "titulo": "Embalaje",
-        "elementos": "Cinta adhesiva, adesiva, adesiba, adhesiba, cuter, tijeras, papel de embalar, tijeras, plástico de burbujas, plastico de burbujas, papel de burbujas, gomas, bolsas con autocierre, fiso, fixo",
-        "back": [
-            {
-                "item": "Cinta adhesiva"
-            },
-            {
-                "item": "Cuter"
-            },
-            {
-                "item": "Tijeras"
-            },
-            {
-                "item": "Plástico de burbujas"
-            },
-            {
-                "item": "Gomas"
-            },
-            {
-                "item": "Bolsas con autocierre"
-            },
-            {
-                "item": "Fiso"
-            }
-        ],
-        "img": [
-            {
-                "src": "/materialOficina/cinta.jpg"
-            }
-        ]
-    }
+  {
+    "id": 1,
+    "titulo": "Material general de oficina",
+    "elementos": "quitagrapas, grapas, papeleras, bandejas, lupas",
+    "back": [
+      {
+        "item": "Quitagrapas"
+      },
+      {
+        "item": "Grapas"
+      },
+      {
+        "item": "Papeleras"
+      },
+      {
+        "item": "Bandejas"
+      },
+      {
+        "item": "Lupas"
+      }
+    ],
+    "img": [
+      {
+        "src": "/materialOficina/materialOficina1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Escritura",
+    "elementos": "Sacapuntas, Bolígrafos, boligrafos, bolis,Rotuladores, Corrector, tipex, goma, Portaminas, minas, lapices, lápices",
+    "back": [
+      {
+        "item": "Sacapuntas"
+      },
+      {
+        "item": "Bolígrafos"
+      },
+      {
+        "item": "Rotuladores"
+      },
+      {
+        "item": "Corrector"
+      },
+      {
+        "item": "Goma de borrar"
+      },
+      {
+        "item": "Portaminas"
+      },
+      {
+        "item": "Lápices"
+      }
+    ],
+    "img": [
+      {
+        "src": "/materialOficina/boligrafos.jpg"
+      },
+      {
+        "src": "/materialOficina/portaminas.jpg"
+      },
+      {
+        "src": "/materialOficina/rotuladores.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Papel",
+    "elementos": "Cuadernos, Folios, Blocs, Libretas, adhesivos, posit, post it",
+    "back": [
+      {
+        "item": "Cuadernos"
+      },
+      {
+        "item": "Folios (Din A4, A5...)"
+      },
+      {
+        "item": "Blocs"
+      },
+      {
+        "item": "Libretas"
+      },
+      {
+        "item": "Post it (adhesivos)"
+      }
+    ],
+    "img": [
+      {
+        "src": "/materialOficina/cuadernos.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Organización",
+    "elementos": "Archivadores, Clasificador, Fundas, Anillas, carpetas, album, álbum, albumes, álbumes, ficheros",
+    "back": [
+      {
+        "item": "Clasificador"
+      },
+      {
+        "item": "Archivadores"
+      },
+      {
+        "item": "Fundas de plástico"
+      },
+      {
+        "item": "Carpetas con anillas"
+      },
+      {
+        "item": "Álbumes"
+      },
+      {
+        "item": "Ficheros"
+      }
+    ],
+    "img": [
+      {
+        "src": "/materialOficina/archivadores.jpg"
+      },
+      {
+        "src": "/materialOficina/fichero.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Embalaje",
+    "elementos": "Cinta adhesiva, adesiva, adesiba, adhesiba, cuter, tijeras, papel de embalar, tijeras, plástico de burbujas, plastico de burbujas, papel de burbujas, gomas, bolsas con autocierre, fiso, fixo",
+    "back": [
+      {
+        "item": "Cinta adhesiva"
+      },
+      {
+        "item": "Cuter"
+      },
+      {
+        "item": "Tijeras"
+      },
+      {
+        "item": "Plástico de burbujas"
+      },
+      {
+        "item": "Gomas"
+      },
+      {
+        "item": "Bolsas con autocierre"
+      },
+      {
+        "item": "Fiso"
+      }
+    ],
+    "img": [
+      {
+        "src": "/materialOficina/cinta.jpg"
+      }
+    ]
+  }
 ]

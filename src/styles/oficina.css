@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap");
 
-.tituloOficina{
-    text-align: center;
-    margin-top: 5px;
-    font-family: "Short Stack", cursive;
+.tituloOficina {
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Short Stack", cursive;
 }
 
-.input{
-    margin-left: 15px;
-    margin-top: 10px;
+.input {
+  margin-left: 15px;
+  margin-top: 10px;
 }
 
-.card-body-oficina{
-    overflow: auto;
+.card-body-oficina {
+  overflow: auto;
 }

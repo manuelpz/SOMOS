@@ -1,52 +1,52 @@
 [
-    {
-        "id": 1,
-        "titulo": "JABON DE MANOS",
-        "descripcion": "Jabón para manos con una fórmula concentrada que dejará tus manos suaves, tersas e hidratadas. Lo que te aporta. Protege el equilibrio hidratante natural de la piel para evitar la sequedad habitual al lavarse las manos. Deja las manos con un olor fresco y limpio. Protege eficazmente de las impurezas y neutraliza los malos olores. Fórmula sumamente concentrada (hasta 450 usos por cada botella de 250 ml). A menudo los jabones son fuertes y pueden incluso dañar la piel.De ahí que sea tan importante elegir tu jabón con inteligencia. El Jabón para Manos Concentrado G&H PROTECT+ limpia y protege el equilibrio hidratante natural de la piel para evitar la sequedad habitual al lavarse las manos. Tus manos quedarán suaves, tersas e hidratadas.Su exclusiva tecnología de neutralización de olores deja las manos con un olor fresco y limpio. Su fórmula sin triclosán protege con eficacia ante las impurezas. Fórmula biodegradable y sin sulfatos.",
-        "img": [
-            {
-                "src": "/higiene/gyh.png"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "titulo": "JABON ESPECIAL",
-        "descripcion": "JABON CREMA MECÁNICOS, 5 L. JABÓN EN CREMA CON ARENA, ESPECIAL PARA LIMPIEZA DE MANOS EN TALLERES E INDUSTRIA",
-        "img": [
-            {
-                "src": "/higiene/jabon-especial.jpg"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "titulo": "DETERGENTE LAVADORA",
-        "descripcion": "SACO 10KG. POL POL EXTRA+OXIGENO  (La marca podría variar según stock). Detergente en polvo concentrado. Eficaz detergente en polvo apto para ser usado en aguas medias, blandas y duras. Está especialmente formulado para ser eficaz frente cualquier tipo de suciedad y a cualquier temperatura. Indicado para poder ser usado sin problema sobre todo tipo de textiles (excepto lana y seda). Especialmente perfumado. Puede usarse combinado con todo tipo de aditivos blanqueantes en el proceso de lavado. La efectividad de sus blanqueantes ópticos asegura un grado de blancura excelente.",
-        "img": [
-            {
-                "src": "/higiene/detergente.jpg"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "titulo": "DETERGENTE LIQUIDO",
-        "descripcion": "Luzil Detergente Liquido Colonia, Marsella O Color 27 Dosis. Seguridad del productoProvoca lesiones oculares graves. Contiene una mezcla de 5-cloro-2-metil-2H-isotiazol-3-on y 2-metil-2H-isotiazol-3-on (3: 1) (CIT / MIT). Puede provocar una reacción alérgica. Provoca lesiones oculares graves.",
-        "img": [
-            {
-                "src": "/higiene/jabon-liquido.jpg"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "titulo": "PAPEL CAMILLA GOFRADO",
-        "descripcion": "Rollo Papel Camilla Blanco 1 Capa Gofrado. Precorte a 2m. Medidas: Ancho 58 cm, Largo 70 metros. Proporciona máxima higiene y resistencia para su uso en camillas y/o similares. Adecuado para clínicas, consultas, salones de belleza, spas y centros de salud y bienestar. Resistente y muy absorbente.",
-        "img": [
-            {
-                "src": "/higiene/papel-camilla.jpg"
-            }
-        ]
-    }
+  {
+    "id": 1,
+    "titulo": "JABON DE MANOS",
+    "descripcion": "Jabón para manos con una fórmula concentrada que dejará tus manos suaves, tersas e hidratadas. Lo que te aporta. Protege el equilibrio hidratante natural de la piel para evitar la sequedad habitual al lavarse las manos. Deja las manos con un olor fresco y limpio. Protege eficazmente de las impurezas y neutraliza los malos olores. Fórmula sumamente concentrada (hasta 450 usos por cada botella de 250 ml). A menudo los jabones son fuertes y pueden incluso dañar la piel.De ahí que sea tan importante elegir tu jabón con inteligencia. El Jabón para Manos Concentrado G&H PROTECT+ limpia y protege el equilibrio hidratante natural de la piel para evitar la sequedad habitual al lavarse las manos. Tus manos quedarán suaves, tersas e hidratadas.Su exclusiva tecnología de neutralización de olores deja las manos con un olor fresco y limpio. Su fórmula sin triclosán protege con eficacia ante las impurezas. Fórmula biodegradable y sin sulfatos.",
+    "img": [
+      {
+        "src": "/higiene/gyh.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "JABON ESPECIAL",
+    "descripcion": "JABON CREMA MECÁNICOS, 5 L. JABÓN EN CREMA CON ARENA, ESPECIAL PARA LIMPIEZA DE MANOS EN TALLERES E INDUSTRIA",
+    "img": [
+      {
+        "src": "/higiene/jabon-especial.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "DETERGENTE LAVADORA",
+    "descripcion": "SACO 10KG. POL POL EXTRA+OXIGENO  (La marca podría variar según stock). Detergente en polvo concentrado. Eficaz detergente en polvo apto para ser usado en aguas medias, blandas y duras. Está especialmente formulado para ser eficaz frente cualquier tipo de suciedad y a cualquier temperatura. Indicado para poder ser usado sin problema sobre todo tipo de textiles (excepto lana y seda). Especialmente perfumado. Puede usarse combinado con todo tipo de aditivos blanqueantes en el proceso de lavado. La efectividad de sus blanqueantes ópticos asegura un grado de blancura excelente.",
+    "img": [
+      {
+        "src": "/higiene/detergente.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "DETERGENTE LIQUIDO",
+    "descripcion": "Luzil Detergente Liquido Colonia, Marsella O Color 27 Dosis. Seguridad del productoProvoca lesiones oculares graves. Contiene una mezcla de 5-cloro-2-metil-2H-isotiazol-3-on y 2-metil-2H-isotiazol-3-on (3: 1) (CIT / MIT). Puede provocar una reacción alérgica. Provoca lesiones oculares graves.",
+    "img": [
+      {
+        "src": "/higiene/jabon-liquido.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "PAPEL CAMILLA GOFRADO",
+    "descripcion": "Rollo Papel Camilla Blanco 1 Capa Gofrado. Precorte a 2m. Medidas: Ancho 58 cm, Largo 70 metros. Proporciona máxima higiene y resistencia para su uso en camillas y/o similares. Adecuado para clínicas, consultas, salones de belleza, spas y centros de salud y bienestar. Resistente y muy absorbente.",
+    "img": [
+      {
+        "src": "/higiene/papel-camilla.jpg"
+      }
+    ]
+  }
 ]

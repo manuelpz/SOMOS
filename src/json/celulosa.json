@@ -1,72 +1,72 @@
 [
-    {
-        "id": 1,
-        "titulo": "PAPEL HIGIENICO COLHOGAR",
-        "descripcion": "Papel higiénico Colhogar Original, ahora más suave que nunca. Sin perfume y con fibras naturales, para ser más cuidadoso con tu piel y la de los tuyos respetando el PH de las zonas más íntimas.Dermatológicamente testado para garantizar la calidad y el cuidado de tu piel",
-        "img": [
-            {
-                "src": "/celulosa/colhogar.jpg"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "titulo": "PAPEL HIGIENICO INDUSTRIAL",
-        "descripcion": "Rollo de papel para colocar en cuartos de baños y aseos públicos. Pack de 18 rollos de Papel Higiénico Industrial, 2 capas celulosa 100%. Rollos de 115 metros con precorte para una mayor facilidad a la hora de usarlo. Extra-suave, mayor absorción y resistencia gracias a su acabado laminado.Fabricado en papel de celulosa virgen extra Es biodegradable y muy versátil. Se puede utilizar con el portarrollos higiénico ",
-        "img": [
-            {
-                "src": "/celulosa/papel_industrial.jpg"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "titulo": "BOBINA MECHA",
-        "descripcion": "Bobina Secamanos Mecha Eco Pasta 6 Rollos. Bobinas secamanos o bobinas. Secamanos multifuncionales, absorbentes y resistentes. Este elemento es perfecto tanto para secar las manos como para la limpieza de los entornos laborales y domésticos. Están realizadas 100 % con celulosa y cuentan con dos capas y 143 metros de longitud. La presentación es en 6 rollos con una altura de 20 centímetros cada uno, los cuales tienen un acabado precortado y laminado. Respeta el medioambiente. Pueden utilizarse con o sin dispensador. Con una gran calidad y puedan adaptarse a tus necesidades en cada momento.",
-        "img": [
-            {
-                "src": "/celulosa/bobina.jpg"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "titulo": "SERVILLETAS DE PAPEL",
-        "descripcion": "Servilleta 40x40 de 2 Capas está fabricada en celulosa y está recomendada para utilizarse en negocios de hostelería. Las servilletas de papel desempeñan una función necesaria en las mesas para el buen servicio al comensal. Las servilleta de papel 2 capas 40×40 cm se ha convertido en el elemento higiénico preferido por los consumidores, no sólo por el hecho de ser desechable y económica, sino también se encuentra una característica de este producto que lo convierte en un elemento muy útil: su gran poder de absorción en superficies húmedas, además de su fácil uso. Las servilletas o toallas de papel se emplean además como elementos higiénicos para secar superficies mojadas o húmedas, secar las manos mojadas, secar algunos alimentos, entre otros. Debido a que son fabricadas en celulosa, esto le confiere un mayor grosor y una apariencia más robusta. Colores disponibles: Blanco Rojo Verde Azul Amarillo",
-        "img": [
-            {
-                "src": "/celulosa/servilleta2.jpg"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "titulo": "PAÑUELOS TISSUES",
-        "descripcion": "Pañuelos faciales extra suaves. 2 capas de tisú interplegadas. Pañuelos tissues blancos son de alta calidad, ideales para limpiar cualquier zona del cuerpo y o superficie. Textura suave y delicada. Papel de celulosa 100 % virgen, 2 capas laminadas. Envoltura de plástico reciclado.",
-        "img": [
-            {
-                "src": "/celulosa/pañuelos3.jpg"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "titulo": "PAPEL CAMILLA DESECHABLE",
-        "descripcion": "Su tacto suave y el color blanco hacen que este papel sea uno de los mejores del mercado. papel de camilla de 2 capas con precorte  usado para cubrir camillas y equipo médico, haciéndolo ideal para uso en centros médicos, veterinarias, clínicas, centros de deporte, fisioterapia, pedicura y salones de belleza y salud ya que ofrecen protección extra al equipamiento y una excelente comodidad a los clientes. Colores blanco y azul.",
-        "img": [
-            {
-                "src": "/celulosa/cubre-camillas.jpg"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "titulo": "TOALLA SECAMANOS",
-        "descripcion": "Celulosa pura de 17 gramos, paquetes abiertos por los lados. Ideal para el secado de manos en hoteles, restaurantes, bares, colegios, guarderías, hospitales, geriátricos, oficinas, etc",
-        "img": [
-            {
-                "src": "/celulosa/toalla-secamanos.jpg"
-            }
-        ]
-    }
+  {
+    "id": 1,
+    "titulo": "PAPEL HIGIENICO COLHOGAR",
+    "descripcion": "Papel higiénico Colhogar Original, ahora más suave que nunca. Sin perfume y con fibras naturales, para ser más cuidadoso con tu piel y la de los tuyos respetando el PH de las zonas más íntimas.Dermatológicamente testado para garantizar la calidad y el cuidado de tu piel",
+    "img": [
+      {
+        "src": "/celulosa/colhogar.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "PAPEL HIGIENICO INDUSTRIAL",
+    "descripcion": "Rollo de papel para colocar en cuartos de baños y aseos públicos. Pack de 18 rollos de Papel Higiénico Industrial, 2 capas celulosa 100%. Rollos de 115 metros con precorte para una mayor facilidad a la hora de usarlo. Extra-suave, mayor absorción y resistencia gracias a su acabado laminado.Fabricado en papel de celulosa virgen extra Es biodegradable y muy versátil. Se puede utilizar con el portarrollos higiénico ",
+    "img": [
+      {
+        "src": "/celulosa/papel_industrial.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "BOBINA MECHA",
+    "descripcion": "Bobina Secamanos Mecha Eco Pasta 6 Rollos. Bobinas secamanos o bobinas. Secamanos multifuncionales, absorbentes y resistentes. Este elemento es perfecto tanto para secar las manos como para la limpieza de los entornos laborales y domésticos. Están realizadas 100 % con celulosa y cuentan con dos capas y 143 metros de longitud. La presentación es en 6 rollos con una altura de 20 centímetros cada uno, los cuales tienen un acabado precortado y laminado. Respeta el medioambiente. Pueden utilizarse con o sin dispensador. Con una gran calidad y puedan adaptarse a tus necesidades en cada momento.",
+    "img": [
+      {
+        "src": "/celulosa/bobina.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "SERVILLETAS DE PAPEL",
+    "descripcion": "Servilleta 40x40 de 2 Capas está fabricada en celulosa y está recomendada para utilizarse en negocios de hostelería. Las servilletas de papel desempeñan una función necesaria en las mesas para el buen servicio al comensal. Las servilleta de papel 2 capas 40×40 cm se ha convertido en el elemento higiénico preferido por los consumidores, no sólo por el hecho de ser desechable y económica, sino también se encuentra una característica de este producto que lo convierte en un elemento muy útil: su gran poder de absorción en superficies húmedas, además de su fácil uso. Las servilletas o toallas de papel se emplean además como elementos higiénicos para secar superficies mojadas o húmedas, secar las manos mojadas, secar algunos alimentos, entre otros. Debido a que son fabricadas en celulosa, esto le confiere un mayor grosor y una apariencia más robusta. Colores disponibles: Blanco Rojo Verde Azul Amarillo",
+    "img": [
+      {
+        "src": "/celulosa/servilleta2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "PAÑUELOS TISSUES",
+    "descripcion": "Pañuelos faciales extra suaves. 2 capas de tisú interplegadas. Pañuelos tissues blancos son de alta calidad, ideales para limpiar cualquier zona del cuerpo y o superficie. Textura suave y delicada. Papel de celulosa 100 % virgen, 2 capas laminadas. Envoltura de plástico reciclado.",
+    "img": [
+      {
+        "src": "/celulosa/pañuelos3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "PAPEL CAMILLA DESECHABLE",
+    "descripcion": "Su tacto suave y el color blanco hacen que este papel sea uno de los mejores del mercado. papel de camilla de 2 capas con precorte  usado para cubrir camillas y equipo médico, haciéndolo ideal para uso en centros médicos, veterinarias, clínicas, centros de deporte, fisioterapia, pedicura y salones de belleza y salud ya que ofrecen protección extra al equipamiento y una excelente comodidad a los clientes. Colores blanco y azul.",
+    "img": [
+      {
+        "src": "/celulosa/cubre-camillas.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "TOALLA SECAMANOS",
+    "descripcion": "Celulosa pura de 17 gramos, paquetes abiertos por los lados. Ideal para el secado de manos en hoteles, restaurantes, bares, colegios, guarderías, hospitales, geriátricos, oficinas, etc",
+    "img": [
+      {
+        "src": "/celulosa/toalla-secamanos.jpg"
+      }
+    ]
+  }
 ]
