@@ -24,10 +24,10 @@ export default function Navegationbar() {
             <Nav.Link className="borde" eventKey="1" as={Link} to="/">
               <b>Inicio</b>
             </Nav.Link>
-            <Nav.Link className="borde" eventKey="2" as={Link} to="/plan">
+            <Nav.Link className="borde" eventKey="2" as={Link} to="/pages/plan">
               <b>Campaña</b>
             </Nav.Link>
-            <Nav.Link eventKey="3" as={Link} to="/nosotros">
+            <Nav.Link eventKey="3" as={Link} to="/pages/nosotros">
               <b>Quienes somos</b>
             </Nav.Link>
             <NavDropdown
@@ -35,29 +35,29 @@ export default function Navegationbar() {
               title="Productos"
               id="navbarScrollingDropdown"
             >
-              <NavDropdown.Item as={Link} to="/caramelos">
+              <NavDropdown.Item as={Link} to="/pages/caramelos">
                 Caramelos
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/alimentacion">
+              <NavDropdown.Item as={Link} to="/pages/alimentacion">
                 Alimentación y bebidas
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/oficina">
+              <NavDropdown.Item as={Link} to="/pages/oficina">
                 Material de oficina
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/bolsas">
+              <NavDropdown.Item as={Link} to="/pages/bolsas">
                 Bolsas
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/guantes">
+              <NavDropdown.Item as={Link} to="/pages/guantes">
                 Guantes
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/celulosa">
+              <NavDropdown.Item as={Link} to="/pages/celulosa">
                 Celulosa
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/higiene">
+              <NavDropdown.Item as={Link} to="/pages/higiene">
                 Higiene
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link eventKey="4" as={Link} to="/contacto">
+            <Nav.Link eventKey="4" as={Link} to="/pages/contacto">
               <b>Contacto</b>
             </Nav.Link>
           </Nav>
