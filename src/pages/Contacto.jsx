@@ -115,7 +115,7 @@ const Contacto = () => {
               <div className="telefonoConjunto">
                 <img
                   className="telefonoIcono"
-                  src="/contacto/telefono.png"
+                  src="/contacto-images/telefono.png"
                   alt="icono de un telefono"
                 />
                 <p className="telefono">

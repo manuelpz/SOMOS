@@ -22,7 +22,7 @@
     ],
     "img": [
       {
-        "src": "/materialOficina/materialOficina1.jpg"
+        "src": "/materialOficina-images/materialOficina1.jpg"
       }
     ]
   },
@@ -55,13 +55,13 @@
     ],
     "img": [
       {
-        "src": "/materialOficina/boligrafos.jpg"
+        "src": "/materialOficina-images/boligrafos.jpg"
       },
       {
-        "src": "/materialOficina/portaminas.jpg"
+        "src": "/materialOficina-images/portaminas.jpg"
       },
       {
-        "src": "/materialOficina/rotuladores.jpg"
+        "src": "/materialOficina-images/rotuladores.jpg"
       }
     ]
   },
@@ -88,7 +88,7 @@
     ],
     "img": [
       {
-        "src": "/materialOficina/cuadernos.jpg"
+        "src": "/materialOficina-images/cuadernos.jpg"
       }
     ]
   },
@@ -118,10 +118,10 @@
     ],
     "img": [
       {
-        "src": "/materialOficina/archivadores.jpg"
+        "src": "/materialOficina-images/archivadores.jpg"
       },
       {
-        "src": "/materialOficina/fichero.jpg"
+        "src": "/materialOficina-images/fichero.jpg"
       }
     ]
   },
@@ -154,7 +154,7 @@
     ],
     "img": [
       {
-        "src": "/materialOficina/cinta.jpg"
+        "src": "/materialOficina-images/cinta.jpg"
       }
     ]
   }

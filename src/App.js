@@ -1,11 +1,6 @@
 import React from "react"
 import "./App.css"
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Switch,
-} from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Footer from "./components/Footer"
 import Navegationbar from "./components/Navbar"
 import Inicio from "./pages/Inicio"
@@ -28,22 +23,20 @@ function App() {
     <div className="App">
       <Router>
         <Navegationbar />
-        <Switch>
-          <Routes>
-            <Route exact path="/" element={<Inicio />} />
-            <Route exact path="/plan" element={<Plan />} />
-            <Route exact path="/nosotros" element={<Nosotros />} />
-            <Route exact path="/contacto" element={<Contacto />} />
-            <Route exact path="/caramelos" element={<Caramelos />} />
-            <Route exact path="/oficina" element={<MaterialOficina />} />
-            <Route exact path="/celulosa" element={<Celulosa />} />
-            <Route exact path="/guantes" element={<Guantes />} />
-            <Route exact path="/bolsas" element={<Bolsas />} />
-            <Route exact path="/higiene" element={<Higiene />} />
-            <Route exact path="/alimentacion" element={<Alimentacion />} />
-            <Route path="*" element={<Error404 />} />
-          </Routes>
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Inicio />} />
+          <Route exact path="/plan" element={<Plan />} />
+          <Route exact path="/nosotros" element={<Nosotros />} />
+          <Route exact path="/contacto" element={<Contacto />} />
+          <Route exact path="/caramelos" element={<Caramelos />} />
+          <Route exact path="/oficina" element={<MaterialOficina />} />
+          <Route exact path="/celulosa" element={<Celulosa />} />
+          <Route exact path="/guantes" element={<Guantes />} />
+          <Route exact path="/bolsas" element={<Bolsas />} />
+          <Route exact path="/higiene" element={<Higiene />} />
+          <Route exact path="/alimentacion" element={<Alimentacion />} />
+          <Route path="*" element={<Error404 />} />
+        </Routes>
       </Router>
       <Footer />
     </div>

@@ -27,7 +27,7 @@ export default function Plan() {
       <div className="logo-cover">
         <img
           className="logoCampaña"
-          src="/plan/mision.avif"
+          src="/plan-images/mision.avif"
           alt="Logo de la campaña"
         />
       </div>
@@ -61,12 +61,12 @@ export default function Plan() {
       <div className="logo-cover2">
         <img
           className="logoCampaña"
-          src="/plan/mision.jpg"
+          src="/plan-images/mision.jpg"
           alt="Logo de la campaña"
         />
         <img
           className="logoCampaña"
-          src="/plan/plan.jpg"
+          src="/plan-images/plan.jpg"
           alt="Logo de la campaña"
         />
       </div>
