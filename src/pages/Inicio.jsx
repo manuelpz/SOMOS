@@ -1,8 +1,8 @@
-import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
-import MyCarousel from "../components/Carousel";
-import "../styles/inicio.css";
-import "../App.css";
+import React from "react"
+import { Row, Col, Container } from "react-bootstrap"
+import MyCarousel from "../components/Carousel"
+import "../styles/inicio.css"
+import "../App.css"
 
 export default function Inicio() {
   return (
@@ -18,19 +18,29 @@ export default function Inicio() {
                 sx={{ width: 250, height: 250 }}
                 className="avatar"
               />
-              <p className="sub">"Los verdaderos superhéroes no usan capas, son pequeños y con muchos sueños, los verdaderos héroes son niños que pelean con fuerza por su vida contra un malévolo enemigo que no podrá vencerlos"</p><p className="sub2">¡Día mundial contra el cáncer infantil!</p>
+              <p className="sub">
+                "Los verdaderos superhéroes no usan capas, son pequeños y con
+                muchos sueños, los verdaderos héroes son niños que pelean con
+                fuerza por su vida contra un malévolo enemigo que no podrá
+                vencerlos"
+              </p>
+              <p className="sub2">¡Día mundial contra el cáncer infantil!</p>
             </Col>
             <Col sm className="col2">
               <p className="titulo">PROYECTOS QUE BUSCAN AYUDA</p>
               <p className="sub">Con tu ayuda llegaremos a más peques</p>
               <br />
-              <img src={"/inicio/nino-cinta-amarilla.jpg"} alt="Niña pequeña con cáncer infantil" className="todosCancer" />
+              <img
+                src={"/inicio/nino-cinta-amarilla.jpg"}
+                alt="Niña pequeña con cáncer infantil"
+                className="todosCancer"
+              />
             </Col>
             <Col sm className="col3">
               <p>
                 Trabajamos con la convicción de que nuestro trabajo aporta a
-                mejorar la situación de cientos de personas que se ven precisadas
-                de ayuda.
+                mejorar la situación de cientos de personas que se ven
+                precisadas de ayuda.
               </p>
               <p>
                 {" "}
@@ -42,11 +52,15 @@ export default function Inicio() {
                 A través de la compra de nuestros productos, estará colaborando
                 con asociaciones de carácter humanitario
               </p>
-              <img src={"/inicio/cancer-2.png"} alt="Frase de apoyo" className="todosCancer" />
+              <img
+                src={"/inicio/cancer-2.png"}
+                alt="Frase de apoyo"
+                className="todosCancer"
+              />
             </Col>
           </Row>
         </Container>
       </div>
     </div>
-  );
+  )
 }

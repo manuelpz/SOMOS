@@ -1,19 +1,19 @@
- @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
 
-p{
-    font-family: 'ABeeZee', sans-serif;
-    margin-left: 15px !important;
-    margin-right: 15px !important;
+p {
+  font-family: "ABeeZee", sans-serif;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
 }
 
-body{
-    padding-bottom: 100%;
+body {
+  padding-bottom: 100%;
 }
 
-.content{
-    margin-bottom: 10%;
+.content {
+  margin-bottom: 10%;
 }
 
-h1{
-    font-family: Helvetica, sans-serif;
+h1 {
+  font-family: Helvetica, sans-serif;
 }

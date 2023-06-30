@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://somosa3.com/</loc>
+  <lastmod>2023-06-26T07:49:41+00:00</lastmod>
+</url>
+  <url>
+    <loc>https://somosa3.com/plan</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://somosa3.com/nosotros</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://somosa3.com/contacto</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://somosa3.com/alimentacion</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://somosa3.com/bolsas</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://somosa3.com/caramelos</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://somosa3.com/celulosa</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://somosa3.com/guantes</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://somosa3.com/higiene</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://somosa3.com/oficina</loc>
+    <lastmod>2023-06-30T15:54:00+00:00</lastmod>
+  </url>
+
+</urlset>

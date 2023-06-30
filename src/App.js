@@ -1,22 +1,22 @@
-import React from "react";
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer";
-import Navegationbar from "./components/Navbar";
-import Inicio from "./pages/Inicio";
-import Error404 from "./pages/Error404";
-import Nosotros from "./pages/Quienes_somos";
-import Contacto from "./pages/Contacto";
-import Caramelos from "./pages/Caramelos";
-import MaterialOficina from "./pages/MaterialOficina";
-import "./styles/footer.css";
-import "./styles/carousel.css";
-import Plan from "./pages/Campaña";
-import Celulosa from "./pages/Celulosa";
-import Guantes from "./pages/Guantes";
-import Bolsas from "./pages/Bolsas";
-import Higiene from "./pages/Higiene";
-import Alimentacion from "./pages/Alimentacion";
+import React from "react"
+import "./App.css"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Footer from "./components/Footer"
+import Navegationbar from "./components/Navbar"
+import Inicio from "./pages/Inicio"
+import Error404 from "./pages/Error404"
+import Nosotros from "./pages/Quienes_somos"
+import Contacto from "./pages/Contacto"
+import Caramelos from "./pages/Caramelos"
+import MaterialOficina from "./pages/MaterialOficina"
+import "./styles/footer.css"
+import "./styles/carousel.css"
+import Plan from "./pages/Campaña"
+import Celulosa from "./pages/Celulosa"
+import Guantes from "./pages/Guantes"
+import Bolsas from "./pages/Bolsas"
+import Higiene from "./pages/Higiene"
+import Alimentacion from "./pages/Alimentacion"
 
 function App() {
   return (
@@ -43,4 +43,4 @@ function App() {
   )
 }
 
-export default App;
+export default App

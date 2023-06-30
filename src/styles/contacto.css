@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap");
 
 form {
   border: 1px solid lightgray;
@@ -7,7 +7,7 @@ form {
 }
 
 .contactanos {
-  font-family: 'Short Stack', cursive;
+  font-family: "Short Stack", cursive;
 }
 
 .contacto {

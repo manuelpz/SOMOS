@@ -1,18 +1,22 @@
-import React from "react";
-import "../styles/navbar.css";
-import "@fontsource/dancing-script";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
-import { NavDropdown } from "react-bootstrap";
+import React from "react"
+import "../styles/navbar.css"
+import "@fontsource/dancing-script"
+import Container from "react-bootstrap/Container"
+import Nav from "react-bootstrap/Nav"
+import Navbar from "react-bootstrap/Navbar"
+import { Link } from "react-router-dom"
+import { NavDropdown } from "react-bootstrap"
 
 export default function Navegationbar() {
   return (
     <Navbar collapseOnSelect bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand as={Link} to="/" >
-          <img className="logo" src={"/LOGO-SOMOS-A3.png"} alt="Logo de la campaña" />
+        <Navbar.Brand as={Link} to="/">
+          <img
+            className="logo"
+            src={"/LOGO-SOMOS-A3.png"}
+            alt="Logo de la campaña"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -26,7 +30,11 @@ export default function Navegationbar() {
             <Nav.Link eventKey="3" as={Link} to="/nosotros">
               <b>Quienes somos</b>
             </Nav.Link>
-            <NavDropdown className="borde" title="Productos" id="navbarScrollingDropdown">
+            <NavDropdown
+              className="borde"
+              title="Productos"
+              id="navbarScrollingDropdown"
+            >
               <NavDropdown.Item as={Link} to="/caramelos">
                 Caramelos
               </NavDropdown.Item>
@@ -56,5 +64,5 @@ export default function Navegationbar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
+  )
 }
