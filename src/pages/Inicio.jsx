@@ -19,7 +19,7 @@ export default function Inicio() {
             <Col sm className="col1">
               <img
                 alt="Niña pasa tiempo con su mamá en terapia"
-                src={"/inicio/mama-pasa-tiempo-su-hijo-mientras-terapia.jpg"}
+                src={"/inicio/mama-pasa-tiempo-su-hijo-mientras-terapia.webp"}
                 sx={{ width: 250, height: 250 }}
                 className="avatar"
               />
@@ -36,7 +36,7 @@ export default function Inicio() {
               <p className="sub">Con tu ayuda llegaremos a más peques</p>
               <br />
               <img
-                src={"/inicio/nino-cinta-amarilla.jpg"}
+                src={"/inicio/nino-cinta-amarilla.webp"}
                 alt="Niña pequeña con cáncer infantil"
                 className="todosCancer"
               />
@@ -58,7 +58,7 @@ export default function Inicio() {
                 con asociaciones de carácter humanitario
               </p>
               <img
-                src={"/inicio/cancer-2.png"}
+                src={"/inicio/cancer-2.webp"}
                 alt="Frase de apoyo"
                 className="todosCancer"
               />
