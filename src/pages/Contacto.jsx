@@ -2,6 +2,7 @@ import React from "react"
 import emailjs from "emailjs-com"
 import { Form, Input, TextArea } from "semantic-ui-react"
 import Swal from "sweetalert2"
+import Headers from "../components/Headers"
 
 import "../styles/contacto.css"
 
@@ -35,7 +36,10 @@ const Contacto = () => {
   }
   return (
     <>
-      <title>Contacto - SOMOS A3 Campaña contra el cancer infantil</title>
+      <Headers
+        title="Contacto - SOMOS A3 Campaña contra el cáncer infantil"
+        description="¡Contáctanos! A través de esta página podrás ponerte en contacto via email o teléfono con nosotros y realizar las gestiones necesarias, como pedir información sobre la campaña que realizamos, pedir información sobre los productos, etc. ¡Te responderemos con la mayor brevedad posible!"
+      />
       <div className="content">
         <h1>
           <p className="centered">

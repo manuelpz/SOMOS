@@ -7,17 +7,16 @@ export default function Plan() {
     <div className="content">
       <Headers
         title="Campaña - SOMOS A3 Campaña contra el cáncer infantil"
-        description="Nuestra misión es llevar a cabo cualquier actuación tendente a mejorar la calidad de vida de los niños y niñas con cáncer infantil, así como colaborar en el conocimiento de estas enfermedades y sus tratamientos"
-        keyWords="Cancer, cancer infantil, campaña, mision, colaboracion, plan"
+        description="Nuestra misión es llevar a cabo cualquier actuación tendente a mejorar la calidad de vida de los niños y niñas con cáncer infantil, así como colaborar en el conocimiento de estas enfermedades y sus tratamientos. Gracias a tu ayuda conseguimos que esta misión se lleve a cabo día tras día"
       />
       <h1 className="tituloCampaña">Campaña</h1>
       <h2 className="subtituloCampaña">NUESTRA MISION</h2>
       <p className="parrafoCampaña">
         En estas especiales circunstancias, el desarrollo afectivo y educativo
-        de los niños y adolescentes debe ser el adecuado, y por ello nuestra
+        de los niños y adolescentes debe ser el adecuado, y por ello <strong>nuestra
         misión es la de llevar a cabo cualquier actuación tendente a mejorar su
         calidad de vida, así como colaborar en el conocimiento de estas
-        enfermedades y sus tratamientos. El cáncer infantil se ha convertido en
+          enfermedades y sus tratamientos.</strong> El cáncer infantil se ha convertido en
         una enfermedad que afecta a entre 1% y 3% de la población infantil de
         nuestro país; por lo que resulta relevante que existan entidades que se
         dediquen por completo a luchar para conseguir mejoras en el tratamiento,

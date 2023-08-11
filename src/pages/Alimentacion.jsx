@@ -16,8 +16,7 @@ export default function Alimentacion() {
     <>
       <Headers
         title="Alimentación - SOMOS A3 Campaña contra el cáncer infantil"
-        description=""
-        keyWords=""
+        description="Colabora con SOMOS A3 contra el cancer infantil con la compra de productos de alimentación, bebidas energéticas y otros productos relacionados. Trabajamos siempre con primeras marcas y productos de excelente calidad"
       />
       <Container>
         <Tarjeta cards={cards}></Tarjeta>
