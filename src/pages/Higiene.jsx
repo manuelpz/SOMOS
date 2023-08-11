@@ -17,8 +17,8 @@ export default function Higiene() {
   return (
     <>
       <Headers
-        title="Caramelos y gominolas - SOMOS A3 Campaña contra el cáncer infantil"
-        description="Colabora con SOMOS A3 contra el cancer infantil con la compra de productos de caramelos, gominolas, piruletas, chocolates... Trabajamos siempre con primeras marcas y productos de excelente calidad"
+        title="Higiene - SOMOS A3 Campaña contra el cáncer infantil"
+        description="Colabora con SOMOS A3 contra el cancer infantil con la compra de productos de higiene. Trabajamos siempre con primeras marcas y productos de excelente calidad"
       />
       <Container>
         <h2 className="disponibilidadProductos">
