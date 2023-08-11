@@ -13,7 +13,7 @@ export default function Celulosa() {
     })
   }
   return (
-    <div>
+    <>
       <Headers
         title="Caramelos y gominolas - SOMOS A3 Campaña contra el cáncer infantil"
         description="Colabora con SOMOS A3 contra el cancer infantil con la compra de productos de caramelos, gominolas, piruletas, chocolates... Trabajamos siempre con primeras marcas y productos de excelente calidad"
@@ -21,6 +21,6 @@ export default function Celulosa() {
       <Container>
         <Tarjeta cards={cards}></Tarjeta>
       </Container>
-    </div>
+    </>
   )
 }

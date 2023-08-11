@@ -13,7 +13,7 @@ export default function Celulosa() {
     })
   }
   return (
-    <div>
+    <>
       <Headers
         title="Celulosa - Pañuelos, servilletas, papel higienico  - SOMOS A3 Campaña contra el cáncer infantil"
         description="Colabora con SOMOS A3 contra el cancer infantil con la compra de productos tan cotidianos como pueden ser el papel higiénico, servilletas, pañuelos, bobina... Gracias a tu colaboración hacemos que nuestra misión sea posible"
@@ -21,6 +21,6 @@ export default function Celulosa() {
       <Container>
         <Tarjeta cards={cards}></Tarjeta>
       </Container>
-    </div>
+    </>
   )
 }

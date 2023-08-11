@@ -10,7 +10,7 @@ export default function Inicio() {
     <div className="content">
       <Headers
         title="Inicio - SOMOS A3 Campaña contra el cáncer infantil"
-        description="Somos una empresa que realizamos actividades comerciales realizando campañas de ayuda para asociaciones necesitadas ofertando los productos que realmente creemos que le pueden ir bien a su empresa para así poder ayudar."
+        description="SOMOS A3 - Somos una empresa que realizamos actividades comerciales realizando campañas de ayuda para asociaciones necesitadas ofertando los productos que realmente creemos que le pueden ir bien a su empresa para así poder ayudar."
       />
       <MyCarousel />
       <div className="cabecera">

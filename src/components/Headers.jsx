@@ -5,7 +5,7 @@ export default function Headers({ title, description }) {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta alternate hreflang='es' />
+      <meta alternate hreflang="es" />
     </Helmet>
   )
 }

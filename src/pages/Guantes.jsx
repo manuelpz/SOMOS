@@ -13,7 +13,7 @@ export default function Guantes() {
     })
   }
   return (
-    <div>
+    <>
       <Headers
         title="Guantes - SOMOS A3 Campaña contra el cáncer infantil"
         description="Colabora con SOMOS A3 contra el cancer infantil con la compra de productos de guantes de todas las clases: desechables, latex, nitrilo ... Trabajamos siempre con primeras marcas y productos de excelente calidad. Pídenos que te enviemos más información si lo deseas"
@@ -21,6 +21,6 @@ export default function Guantes() {
       <Container>
         <Tarjeta cards={cards}></Tarjeta>
       </Container>
-    </div>
+    </>
   )
 }

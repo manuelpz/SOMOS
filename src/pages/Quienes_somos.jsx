@@ -1,9 +1,14 @@
 import React from "react"
 import "../styles/quienes_somos.css"
+import Headers from "../components/Headers"
 
 function Nosotros() {
   return (
     <div className="content">
+      <Headers
+        title="Nosotros - SOMOS A3 Campaña contra el cáncer infantil"
+        description="Descubre nuestra esencia: Conócenos en profundidad. Explora nuestra historia y valores. Un vistazo interior a quiénes SOMOS y cómo dedicamos nuestro compromiso a hacer la diferencia."
+      />
       <h1 className="tituloQuienesSomos">SOMOS A3</h1>
       <p>
         <i>
@@ -28,7 +33,7 @@ function Nosotros() {
       <div className="logo-cover3">
         <img
           className="logoCampaña"
-          src={"/LOGO-SOMOS-A3.webp"}
+          src={"/LOGO-SOMOS-A3.png"}
           alt="Logo de la campaña"
         />
       </div>

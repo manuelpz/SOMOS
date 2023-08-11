@@ -13,15 +13,18 @@ export default function Plan() {
       <h2 className="subtituloCampaña">NUESTRA MISION</h2>
       <p className="parrafoCampaña">
         En estas especiales circunstancias, el desarrollo afectivo y educativo
-        de los niños y adolescentes debe ser el adecuado, y por ello <strong>nuestra
-        misión es la de llevar a cabo cualquier actuación tendente a mejorar su
-        calidad de vida, así como colaborar en el conocimiento de estas
-          enfermedades y sus tratamientos.</strong> El cáncer infantil se ha convertido en
-        una enfermedad que afecta a entre 1% y 3% de la población infantil de
-        nuestro país; por lo que resulta relevante que existan entidades que se
-        dediquen por completo a luchar para conseguir mejoras en el tratamiento,
-        en la estancia hospitalaria o en el ámbito educativo de estos niños y
-        niñas afectados por la enfermedad.
+        de los niños y adolescentes debe ser el adecuado, y por ello{" "}
+        <strong>
+          nuestra misión es la de llevar a cabo cualquier actuación tendente a
+          mejorar su calidad de vida, así como colaborar en el conocimiento de
+          estas enfermedades y sus tratamientos.
+        </strong>{" "}
+        El cáncer infantil se ha convertido en una enfermedad que afecta a entre
+        1% y 3% de la población infantil de nuestro país; por lo que resulta
+        relevante que existan entidades que se dediquen por completo a luchar
+        para conseguir mejoras en el tratamiento, en la estancia hospitalaria o
+        en el ámbito educativo de estos niños y niñas afectados por la
+        enfermedad.
       </p>
       <div className="logo-cover">
         <img
