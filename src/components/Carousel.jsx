@@ -8,7 +8,7 @@ export default function MyCarousel() {
       <Carousel.Item className="Item">
         <img
           className="d-block w-1 imgCarrusel"
-          src={"/carousel/solidaridad-lila.avif"}
+          src={"/carousel/solidaridad-lila.png"}
           alt="First slide"
         />
       </Carousel.Item>

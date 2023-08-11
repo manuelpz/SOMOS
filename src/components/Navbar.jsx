@@ -14,7 +14,7 @@ export default function Navegationbar() {
         <Navbar.Brand as={Link} to="/">
           <img
             className="logo"
-            src={"/LOGO-SOMOS-A3.jpg"}
+            src={"/LOGO-SOMOS-A3.png"}
             alt="Logo de la campaña"
           />
         </Navbar.Brand>

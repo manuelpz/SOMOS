@@ -58,7 +58,7 @@ export default function Inicio() {
                 con asociaciones de carácter humanitario
               </p>
               <img
-                src={"/inicio/cancer-2.avif"}
+                src={"/inicio/cancer-2.png"}
                 alt="Frase de apoyo"
                 className="todosCancer"
               />
