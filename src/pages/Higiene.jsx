@@ -6,6 +6,7 @@ import "../styles/oficina.css"
 import "../styles/higiene.css"
 import { Container } from "react-bootstrap"
 import { Link } from "react-router-dom"
+import Headers from "../components/Headers"
 
 export default function Higiene() {
   const Tarjeta = ({ cards }) => {
@@ -14,7 +15,11 @@ export default function Higiene() {
     })
   }
   return (
-    <div>
+    <>
+      <Headers
+        title="Higiene - SOMOS A3 Campaña contra el cáncer infantil"
+        description="Colabora con SOMOS A3 contra el cancer infantil con la compra de productos de higiene. Trabajamos siempre con primeras marcas y productos de excelente calidad"
+      />
       <Container>
         <h2 className="disponibilidadProductos">
           Disponemos de múltiples productos de limpieza para su empresa o su
@@ -45,6 +50,6 @@ export default function Higiene() {
           </button>
         </Link>
       </Container>
-    </div>
+    </>
   )
 }

@@ -13,15 +13,14 @@ export default function Bolsas() {
     })
   }
   return (
-    <div>
+    <>
       <Headers
         title="Bolsas - SOMOS A3 Campaña contra el cáncer infantil"
         description="Colabora con SOMOS A3 contra el cancer infantil con la compra de bolsas de basura industriales, domésticas, de polietilino, bolsas de plástico... tanto para uso industrial como uso personal"
-        keyWords="Bolsas, bolsas de basura, bolsas de plastico, bolsas industriales, colaboracion, cancer infantil"
       />
       <Container>
         <Tarjeta cards={cards}></Tarjeta>
       </Container>
-    </div>
+    </>
   )
 }

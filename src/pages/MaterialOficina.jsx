@@ -4,6 +4,7 @@ import CartaOficina from "../components/CartaOficina"
 import "../styles/tarjetas.css"
 import "../styles/oficina.css"
 import { Container } from "react-bootstrap"
+import Headers from "../components/Headers"
 
 export default function MaterialOficina() {
   const [value, setValue] = useState({ input: "" })
@@ -41,6 +42,10 @@ export default function MaterialOficina() {
 
   return (
     <>
+      <Headers
+        title="Material de oficina - SOMOS A3 Campaña contra el cáncer infantil"
+        description="Colabora con SOMOS A3 contra el cancer infantil con la compra de material de oficina, trabajamos siempre con primeras marcas y productos de excelente calidad. Disponemos de todo tipo de material para su negocio. Pregunte sin compromiso."
+      />
       <h1 className="tituloOficina">MATERIAL DE OFICINA</h1>
       <p>
         Disponemos de más de 3.000 productos de material de oficina para tu
