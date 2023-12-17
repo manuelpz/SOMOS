@@ -4,12 +4,12 @@ import Headers from "../components/Headers"
 
 function Nosotros() {
   return (
-    <div className="content">
+    <div className="content md:!mr-40 md:!ml-20">
       <Headers
         title="Nosotros - SOMOS A3 Campaña contra el cáncer infantil"
         description="Descubre nuestra esencia: Conócenos en profundidad. Explora nuestra historia y valores. Un vistazo interior a quiénes SOMOS y cómo dedicamos nuestro compromiso a hacer la diferencia."
       />
-      <h1 className="tituloQuienesSomos">SOMOS A3</h1>
+      <h1 className="tituloQuienesSomos !mt-10 !mb-10">SOMOS A3</h1>
       <p>
         <i>
           <b>Somos</b>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Calibri:wght@400;700&display=swap');
 
 h1 {
   margin-top: 10px !important;
@@ -9,15 +9,17 @@ ul {
 }
 
 .tituloCampaña {
-  font-family: "Short Stack", cursive;
+  font-family: "Calibri", sans-serif;
   text-transform: uppercase;
   margin-top: 15px;
   text-align: center;
+  font-weight: bold;
 }
 
 .subtituloCampaña {
-  font-family: "Short Stack", cursive;
+  font-family: "Calibri", sans-serif;
   margin-left: 15px;
+  font-weight: bold;
 }
 
 .parrafoCampaña {
@@ -25,9 +27,11 @@ ul {
   margin-left: 15px !important;
 }
 
-.listaCampaña {
-  list-style-type: circle;
-}
+    li::before {
+      content: "🎗️"; /* Emoji para el pulgar hacia arriba */
+      display: inline-block;
+      margin-right: 0.5em; /* Espacio entre el emoji y el texto del elemento de la lista */
+    }
 
 .textoAgradecimiento {
   text-align: center;

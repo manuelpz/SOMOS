@@ -42,29 +42,26 @@ const Contacto = () => {
       />
       <div className="content">
         <h1>
-          <p className="centered">
-            <i>¿Hablamos?</i>
-          </p>
-          <p className="centered">
-            <b>¡Ponte en contacto con nosotros!</b>
-          </p>
+          <p className="text-center text-3xl !mt-16 !mb-16 font-sans"><b>¡Ponte en contacto con nosotros!</b></p>
         </h1>
         <div className="contacto">
           <div className="contact">
             <div>
               <h2>
-                <b className="contactanos">Escríbenos</b>
+                <p className="text-center font-bold font-sans">Escríbenos</p>
               </h2>
-              <Form onSubmit={handleOnSubmit}>
+              <Form className="md:ml-16"
+                onSubmit={handleOnSubmit}>
                 <Form.Field
                   id="form-input-control-email"
                   control={Input}
                   label="Email"
                   name="from_email"
                   placeholder="Email…"
-                  required
                   icon="mail"
                   iconPosition="left"
+                  className="md:!mr-16 md:!ml-16 !mr-4"
+                  required
                 />
                 <Form.Field
                   id="form-input-control-last-name"
@@ -72,25 +69,27 @@ const Contacto = () => {
                   label="Nombre"
                   name="from_name"
                   placeholder="Nombre"
-                  required
                   icon="user circle"
                   iconPosition="left"
-                />
+                  className="md:!mr-16 md:!ml-16 !mr-4"
+                  required
+                  />
                 <Form.Field
                   id="form-textarea-control-opinion"
                   control={TextArea}
                   label="Mensaje"
                   name="user_message"
                   placeholder="Mensaje..."
+                  className="md:!mr-16 md:!ml-16 !mr-4"
                   required
                 />
                 <div className="grid justify-center">
-                  <button className="botonContacto" type="submit">
+                  <button className="botonContacto h-2/3" type="submit">
                     <div className="svg-wrapper-1">
                       <div className="svg-wrapper">
                         <svg
-                          height="24"
-                          width="24"
+                          height="20"
+                          width="20"
                           viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
                         >
@@ -102,17 +101,15 @@ const Contacto = () => {
                         </svg>
                       </div>
                     </div>
-                    <span>Enviar</span>
+                    <span className="text-lg">Enviar</span>
                   </button>
                 </div>
               </Form>
             </div>
             <div>
-              <h2>
-                <b className="contactanos">Llámanos</b>
-              </h2>
-              <p className="disponibilidad">
-                <i>Lunes</i> a <i>Viernes</i> <br /> <u>Mañanas</u>:{" "}
+              <h2 className="text-center font-bold mb-10 font-sans">Llámanos </h2>
+              <p className="text-center text-lg">
+                Horario de <i>Lunes</i> a <i>Viernes</i> <br /><br /> <u>Mañanas</u>:{" "}
                 <b>09:30</b> a <b>14:00</b> <br /> <u>Trades</u>: <b>16:00</b> a{" "}
                 <b>20:00</b>
               </p>

@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Calibri:wght@400;700&display=swap');
 
 p {
   font-family: "ABeeZee", sans-serif;
   margin-left: 15px !important;
   margin-right: 15px !important;
+}
+
+li{
+  font-family: "ABeeZee", sans-serif;
 }
 
 body {
@@ -15,5 +20,5 @@ body {
 }
 
 h1 {
-  font-family: Helvetica, sans-serif;
+  font-family: "Calibri", sans-serif;
 }
