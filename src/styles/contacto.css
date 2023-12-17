@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Short+Stack&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Calibri:wght@400;700&display=swap');
 
 form {
   border: 1px solid lightgray;
@@ -6,10 +6,13 @@ form {
   padding: 20px;
 }
 
-.contactanos {
-  font-family: "Short Stack", cursive;
+textarea{
+  background-color: yellow;
 }
 
+.ui.form textarea {
+  margin-left: 15px !important;
+}
 .contacto {
   text-align: center;
   margin: 20px 15px;
@@ -29,10 +32,6 @@ form {
   align-content: stretch;
 }
 
-.centered {
-  text-align: center;
-}
-
 .telefonoIcono {
   width: 20px;
 }
@@ -40,10 +39,6 @@ form {
 .textoInformativo {
   text-align: center;
   margin-top: 15px;
-}
-
-.disponibilidad {
-  text-align: center;
 }
 
 .telefonoConjunto {

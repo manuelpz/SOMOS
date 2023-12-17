@@ -1,6 +1,5 @@
 import React from "react"
 import "../styles/navbar.css"
-import "@fontsource/dancing-script"
 import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
@@ -9,7 +8,7 @@ import { NavDropdown } from "react-bootstrap"
 
 export default function Navegationbar() {
   return (
-    <Navbar collapseOnSelect bg="light" expand="lg">
+    <Navbar className="text-md" collapseOnSelect bg="light" expand="lg">
       <Container fluid>
         <Navbar.Brand as={Link} to="/">
           <img
@@ -20,18 +19,18 @@ export default function Navegationbar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav>
-            <Nav.Link className="borde" eventKey="1" as={Link} to="/">
+          <Nav className="font-sans text-lg text-uppercase">
+            <Nav.Link className="borde mr-16" eventKey="1" as={Link} to="/">
               <b>Inicio</b>
             </Nav.Link>
-            <Nav.Link className="borde" eventKey="2" as={Link} to="/plan">
+            <Nav.Link className="borde mr-16" eventKey="2" as={Link} to="/plan">
               <b>Campaña</b>
             </Nav.Link>
-            <Nav.Link eventKey="3" as={Link} to="/nosotros">
+            <Nav.Link className="mr-16" eventKey="3" as={Link} to="/nosotros">
               <b>Quienes somos</b>
             </Nav.Link>
             <NavDropdown
-              className="borde"
+              className="borde mr-16"
               title="Productos"
               id="navbarScrollingDropdown"
             >
@@ -57,7 +56,7 @@ export default function Navegationbar() {
                 Higiene
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link eventKey="4" as={Link} to="/contacto">
+            <Nav.Link className="mr-16" eventKey="4" as={Link} to="/contacto">
               <b>Contacto</b>
             </Nav.Link>
           </Nav>

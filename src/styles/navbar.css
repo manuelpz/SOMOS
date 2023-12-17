@@ -1,9 +1,14 @@
 /* ------ ELEMENTOS HTML------ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calibri:wght@400;700&display=swap');
+
 nav {
   background: linear-gradient(to right, white, #990099);
-  font-family: "Dancing Script", sans-serif;
   text-align: center;
-  font-size: 1.3rem;
+}
+
+.navbar-nav {
+  font-family: 'Calibri', sans-serif;
 }
 
 a {
@@ -35,7 +40,7 @@ b {
 }
 
 .navbar-brand {
-  width: 12%;
+  width: 10%;
   padding-bottom: 0px;
 }
 
