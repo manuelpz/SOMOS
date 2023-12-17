@@ -19,18 +19,18 @@ export default function Navegationbar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav className="font-sans text-lg text-uppercase">
-            <Nav.Link className="borde mr-16" eventKey="1" as={Link} to="/">
+          <Nav className="text-lg text-uppercase">
+            <Nav.Link className="borde md:mr-16" eventKey="1" as={Link} to="/">
               <b>Inicio</b>
             </Nav.Link>
-            <Nav.Link className="borde mr-16" eventKey="2" as={Link} to="/plan">
+            <Nav.Link className="borde md:mr-16" eventKey="2" as={Link} to="/plan">
               <b>Campaña</b>
             </Nav.Link>
-            <Nav.Link className="mr-16" eventKey="3" as={Link} to="/nosotros">
+            <Nav.Link className="md:mr-16" eventKey="3" as={Link} to="/nosotros">
               <b>Quienes somos</b>
             </Nav.Link>
             <NavDropdown
-              className="borde mr-16"
+              className="borde md:mr-16"
               title="Productos"
               id="navbarScrollingDropdown"
             >
@@ -56,7 +56,7 @@ export default function Navegationbar() {
                 Higiene
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="mr-16" eventKey="4" as={Link} to="/contacto">
+            <Nav.Link className="md:mr-16" eventKey="4" as={Link} to="/contacto">
               <b>Contacto</b>
             </Nav.Link>
           </Nav>

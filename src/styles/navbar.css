@@ -53,6 +53,11 @@ b {
     width: 100%;
   }
 
+  .navbar-brand {
+  width: 60px;
+  padding-bottom: 0px;
+}
+
   .nav-link {
     border-bottom: 1px solid black;
   }

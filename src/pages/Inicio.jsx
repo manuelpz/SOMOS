@@ -29,10 +29,9 @@ export default function Inicio() {
                 fuerza por su vida contra un malévolo enemigo que no podrá
                 vencerlos"
               </p>
-              <h1 className="titulo text-center text-2xl text-uppercase">¡Día mundial contra el cáncer infantil!</h1>
             </Col>
             <Col sm className="col2">
-              <p className="titulo text-center text-2xl">PROYECTOS QUE BUSCAN AYUDA</p>
+              <h1 className="titulo text-center text-2xl">PROYECTOS QUE BUSCAN AYUDA</h1>
               <p className="sub">Con tu ayuda llegaremos a más peques</p>
               <br />
               <img

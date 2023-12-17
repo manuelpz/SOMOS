@@ -4,13 +4,13 @@ import Headers from "../components/Headers"
 
 export default function Plan() {
   return (
-    <div className="content md:!mr-40 md:!ml-20">
+    <div className="content md:!mr-40 md:!ml-20 !ml-6 !mr-6 ">
       <Headers
         title="Campaña - SOMOS A3 Campaña contra el cáncer infantil"
         description="Nuestra misión es llevar a cabo cualquier actuación tendente a mejorar la calidad de vida de los niños y niñas con cáncer infantil, así como colaborar en el conocimiento de estas enfermedades y sus tratamientos. Gracias a tu ayuda conseguimos que esta misión se lleve a cabo día tras día"
       />
       <h1 className="tituloCampaña !mt-12 text-4xl mb-10">🎗️ Campaña contra el cáncer infantil 🎗️</h1>
-      <h2 className="subtituloCampaña text-2xl">NUESTRA MISION</h2>
+      <h2 className="subtituloCampaña text-2xl ml-4">NUESTRA MISION:</h2>
       <p className="parrafoCampaña">
         En estas especiales circunstancias, el desarrollo afectivo y educativo
         de los niños y adolescentes debe ser el adecuado, y por ello{" "}
@@ -33,8 +33,8 @@ export default function Plan() {
           alt="Logo de la campaña"
         />
       </div>
-      <h2 className="subtituloCampaña text-2xl mt-10 md:!ml-8">OBJETIVOS DE NUESTRAS ACTIVIDADES</h2>
-      <ul className="listaCampaña">
+      <h2 className="subtituloCampaña text-2xl mt-10 md:!ml-8 mr-6 ml-6">OBJETIVOS DE NUESTRAS ACTIVIDADES:</h2>
+      <ul className="text-justify p-0 mr-6 ml-6">
         <li>
           Realizar actividades dirigidas a sensibilizar a la población,
           especialmente a los niños y niñas, con el cáncer infantil y sobre todo

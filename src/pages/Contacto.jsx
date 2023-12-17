@@ -42,13 +42,13 @@ const Contacto = () => {
       />
       <div className="content">
         <h1>
-          <p className="text-center text-3xl !mt-16 !mb-16 font-sans"><b>¡Ponte en contacto con nosotros!</b></p>
+          <p className="text-center text-3xl !mt-16 !mb-16 text-uppercase"><b>¡Ponte en contacto con nosotros!</b></p>
         </h1>
         <div className="contacto">
           <div className="contact">
             <div>
               <h2>
-                <p className="text-center font-bold font-sans">Escríbenos</p>
+                <p className="text-center font-bold text-uppercase">Escríbenos</p>
               </h2>
               <Form className="md:ml-16"
                 onSubmit={handleOnSubmit}>
@@ -73,7 +73,7 @@ const Contacto = () => {
                   iconPosition="left"
                   className="md:!mr-16 md:!ml-16 !mr-4"
                   required
-                  />
+                />
                 <Form.Field
                   id="form-textarea-control-opinion"
                   control={TextArea}
@@ -107,9 +107,9 @@ const Contacto = () => {
               </Form>
             </div>
             <div>
-              <h2 className="text-center font-bold mb-10 font-sans">Llámanos </h2>
+              <h2 className="text-center font-bold mb-10 text-uppercase">Llámanos </h2>
               <p className="text-center text-lg">
-                Horario de <i>Lunes</i> a <i>Viernes</i> <br /><br /> <u>Mañanas</u>:{" "}
+                Horario de Lunes a Viernes<br /><br /> <u>Mañanas</u>:{" "}
                 <b>09:30</b> a <b>14:00</b> <br /> <u>Trades</u>: <b>16:00</b> a{" "}
                 <b>20:00</b>
               </p>
